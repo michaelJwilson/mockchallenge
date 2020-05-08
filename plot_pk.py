@@ -5,9 +5,9 @@ import  pylab  as pl
 import  numpy  as np
 
 
-fnames  = []
+fnames  =  []
 
-test    =  1
+test    =  True
 stride  =  2
 lmax    =  4
 regress =  1
@@ -22,10 +22,13 @@ for boxsize in [30000.]:
 # fnames.append('Pkl_linear_Krolewski_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_1.txt')
 # fnames.append('Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_0.txt')
 
-fnames.append('Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_3Gpc_regress_1_lmax_4_stride_2.txt')
+boxes              = [3, 2, 1]
+alphas             = [1.0, 0.6, 0.3]
 
-for fname, amp in zip(fnames, np.ones(len(fnames))):
-  # dat            = np.loadtxt(fname, unpack=True).T
+boxes              = [3]
+
+for boxsize, alpha in zip(boxes, alphas):
+  fname            = 'Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_{}Gpc_regress_{}_lmax_{}_stride_{}{}.txt'.format(boxsize, regress, lmax, stride, '_TEST' if test else '')
 
   # Get header.
   with open(fname) as f:
@@ -35,8 +38,6 @@ for fname, amp in zip(fnames, np.ones(len(fnames))):
   dat              = pd.read_csv(fname, sep='\s+', comment='#', names=header).applymap(complex)
   
   poles            = [x for x in header[1:-1]] 
-
-  print(dat)
   
   '''
   k                = dat[:,0]
@@ -50,14 +51,23 @@ for fname, amp in zip(fnames, np.ones(len(fnames))):
     pl.plot(k, k*np.abs(P), label=r'$k \cdot P_{}$'.format(pole))
   '''
   
-  for pole in poles:
-    k              = dat['k'].to_numpy().real
-    P              = dat[pole].to_numpy().real
+  for pole, color in zip(poles, ['b', 'g', 'r']):
+    even           = np.int(pole[1]) % 2 
     
-    pl.plot(k, k * P, label=r'$k \cdot {}$'.format(pole))   
+    if even == 0:
+      k              = dat['k'].to_numpy().real
+      P              = dat[pole].to_numpy().real
 
-  pl.xlim(0.0,   0.2)
-  # pl.ylim(0.0, 1000.)
+      if pole == 'P0':
+        label = r'$k \cdot P0, {}Gpc$'.format(boxsize)
+
+      else:
+        label = ''
+         
+      pl.plot(k, k * P, label=label, color=color, alpha=alpha)   
+
+  pl.xlim(   0.0,  0.2)
+  pl.ylim(-100.0, 800.)
 
   pl.legend(ncol=2, loc=1, frameon=False)
 
