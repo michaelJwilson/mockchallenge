@@ -1,0 +1,1 @@
+/global/cfs/cdirs/desi/users/akrolew/mock_challenge/fourier_space_mock2_odd.py

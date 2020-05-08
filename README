@@ -1,0 +1,32 @@
+cd /project/projectdirs/desi/users/mjwilson/mockchallenge/
+
+# Request a working node: nbodykit needs mpi routines not available on login nodes.
+salloc -N 1 -C haswell -q interactive -t 01:00:00 -L SCRATCH
+
+# In case the worker ssh took you anywhere else.
+cd /project/projectdirs/desi/users/mjwilson/mockchallenge/
+
+# Activate the custom nbodykit environment with regression.
+conda activate /project/projectdirs/desi/users/mjwilson/repos/regress/
+
+# Simple serial run/
+python pk.py
+
+# threaded run.
+# srun -n 32 python pk.py
+
+# Output should look like.
+./REGRESS_1_Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_0.txt
+
+# Perhaps switch between regression and default nbodykit.
+emacs -nw pk.py
+
+regress=True -> regress=False
+
+# Simple serial run/
+python pk.py
+
+# Output should look like.
+./REGRESS_0_Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_0.txt
+
+# project_to_basis @ /project/projectdirs/desi/users/mjwilson/mockchallenge/fftpower.py has the actual changes to nbodykit.  

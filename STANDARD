@@ -1,0 +1,10 @@
+source /global/common/software/m3035/conda-activate.sh 3.7
+
+# conda env list
+
+conda create --clone bcast-bccp-3.7 --prefix /project/projectdirs/desi/users/mjwilson/repos/desikit
+
+conda activate /project/projectdirs/desi/users/mjwilson/repos/desikit
+
+# Source code for editing.
+/project/projectdirs/desi/users/mjwilson/repos/desikit/lib/python3.7/site-packages/nbodykit/
