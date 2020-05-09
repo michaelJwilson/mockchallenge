@@ -1,0 +1,142 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "pytest >=3.1",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/pytest-remotedata-0.3.2-py37_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pytest_remotedata/__init__.py",
+    "lib/python3.7/site-packages/pytest_remotedata/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_remotedata/__pycache__/disable_internet.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_remotedata/__pycache__/plugin.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_remotedata/disable_internet.py",
+    "lib/python3.7/site-packages/pytest_remotedata/plugin.py"
+  ],
+  "fn": "pytest-remotedata-0.3.2-py37_0.conda",
+  "legacy_bz2_md5": "7e0a6d708d85b1587e3d086362b8a392",
+  "license": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/pytest-remotedata-0.3.2-py37_0",
+    "type": 1
+  },
+  "md5": "b7ffb21301fe889148b431b9b4d66c0b",
+  "name": "pytest-remotedata",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/pytest-remotedata-0.3.2-py37_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "sha256_in_prefix": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "05ecd2912f9fb5f985070cbd0fed69c7cff6cfe39affa8805f85c7fb5a2fe676",
+        "sha256_in_prefix": "05ecd2912f9fb5f985070cbd0fed69c7cff6cfe39affa8805f85c7fb5a2fe676",
+        "size_in_bytes": 5340
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "23aeaee0c80b35150f6b9d8b753bf5ed3e7dfffa392bd53ecbba9b7fd0f980a3",
+        "sha256_in_prefix": "23aeaee0c80b35150f6b9d8b753bf5ed3e7dfffa392bd53ecbba9b7fd0f980a3",
+        "size_in_bytes": 1092
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d2b1c339a9dad78873b1ab9ad89d8bed9b64eacb68e363b49e826deced346631",
+        "sha256_in_prefix": "d2b1c339a9dad78873b1ab9ad89d8bed9b64eacb68e363b49e826deced346631",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "59f2ac639ddf292531494c0f479d73c170db36d5e0bfa9f6bbe93284022a8b52",
+        "sha256_in_prefix": "59f2ac639ddf292531494c0f479d73c170db36d5e0bfa9f6bbe93284022a8b52",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata-0.3.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "312df5f699c1e901d0aa959bc536072d56da65f4afb57212e9e3e2ad6f099d3c",
+        "sha256_in_prefix": "312df5f699c1e901d0aa959bc536072d56da65f4afb57212e9e3e2ad6f099d3c",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+        "sha256_in_prefix": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "42452b1e0d102d1b49f6aa31bf7d809b2b5234360d2950090d33a675b75f0710",
+        "sha256_in_prefix": "42452b1e0d102d1b49f6aa31bf7d809b2b5234360d2950090d33a675b75f0710",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/__pycache__/disable_internet.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c4fead06a67630c8bf22eda2ca9a68d352fd7f25fc40e2591e7c88591a31741",
+        "sha256_in_prefix": "9c4fead06a67630c8bf22eda2ca9a68d352fd7f25fc40e2591e7c88591a31741",
+        "size_in_bytes": 4113
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/__pycache__/plugin.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "28bc6cb78d80050e21e689ea10c2e02d38bc9a107436409e103f11b91cd4cdff",
+        "sha256_in_prefix": "28bc6cb78d80050e21e689ea10c2e02d38bc9a107436409e103f11b91cd4cdff",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/disable_internet.py",
+        "path_type": "hardlink",
+        "sha256": "d58387d937f915aff6e4e182b328fefb4d03301bfdbb7ace8d011fd18abb3b00",
+        "sha256_in_prefix": "d58387d937f915aff6e4e182b328fefb4d03301bfdbb7ace8d011fd18abb3b00",
+        "size_in_bytes": 6260
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_remotedata/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "5126873e45a31ee0575e6415d955d386820e7eac3bf2de34781c62064f4ed13d",
+        "sha256_in_prefix": "5126873e45a31ee0575e6415d955d386820e7eac3bf2de34781c62064f4ed13d",
+        "size_in_bytes": 3796
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd4abedfb9ded9f9db554774c807f57ed8fe01cee394552328d062a070d58e55",
+  "size": 15404,
+  "subdir": "linux-64",
+  "timestamp": 1564704282978,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pytest-remotedata-0.3.2-py37_0.conda",
+  "version": "0.3.2"
+}

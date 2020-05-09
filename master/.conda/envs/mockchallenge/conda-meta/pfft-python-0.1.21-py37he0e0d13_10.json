@@ -1,0 +1,211 @@
+{
+  "arch": "x86_64",
+  "build": "py37he0e0d13_10",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "mpi4py",
+    "mpich >=3.3.2,<3.4.0a0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/pfft-python-0.1.21-py37he0e0d13_10",
+  "features": "",
+  "files": [
+    "bin/pfft-roundtrip-matrix.py",
+    "lib/python3.7/site-packages/pfft/__init__.py",
+    "lib/python3.7/site-packages/pfft/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft/core.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pfft/core.py",
+    "lib/python3.7/site-packages/pfft/tests/__init__.py",
+    "lib/python3.7/site-packages/pfft/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft/tests/__pycache__/test_pfft.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft/tests/test_pfft.py",
+    "lib/python3.7/site-packages/pfft/version.py",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/native_libs.txt",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/requires.txt",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/scripts/__pycache__/pfft-roundtrip-matrix.cpython-37.pyc",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/scripts/pfft-roundtrip-matrix.py",
+    "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/top_level.txt"
+  ],
+  "fn": "pfft-python-0.1.21-py37he0e0d13_10.tar.bz2",
+  "license": "GPL3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/pfft-python-0.1.21-py37he0e0d13_10",
+    "type": 1
+  },
+  "md5": "3d370b3564d948af0dc8a431eabcb709",
+  "name": "pfft-python",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/pfft-python-0.1.21-py37he0e0d13_10.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pfft-roundtrip-matrix.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "231c340ea8ce60634d7330951c6b10df470a5953e49991bb3e6c47d766d63a9e",
+        "sha256_in_prefix": "8b8f86d7373c08ef7b2a4e09db4e7e2598e6083ce38327cc5b0643055acfed78",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "720b660b9c7970e9b4d8acdfeca8a120fe5cec4e41b1baada39aca29e907ee5b",
+        "sha256_in_prefix": "720b660b9c7970e9b4d8acdfeca8a120fe5cec4e41b1baada39aca29e907ee5b",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "de61847b2189b38d48f31a88e33de5f8772ce5a74b5f5e21d7356575e6b2e7a9",
+        "sha256_in_prefix": "de61847b2189b38d48f31a88e33de5f8772ce5a74b5f5e21d7356575e6b2e7a9",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/__pycache__/core.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "df8cdcba09fc8063bc58a8e398b4db25e1d07bf1af28f9aa897a5f34fa364767",
+        "sha256_in_prefix": "df8cdcba09fc8063bc58a8e398b4db25e1d07bf1af28f9aa897a5f34fa364767",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "46c7b6ebde3e2b2abf93034d1959cf68c72264a73622a549d3214128da099c1a",
+        "sha256_in_prefix": "46c7b6ebde3e2b2abf93034d1959cf68c72264a73622a549d3214128da099c1a",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/core.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d300517d3b64eec8b8f3e2d1ef8b678d31f952f6182d43bf7a88ec4e48ebfdfb",
+        "sha256_in_prefix": "d300517d3b64eec8b8f3e2d1ef8b678d31f952f6182d43bf7a88ec4e48ebfdfb",
+        "size_in_bytes": 3914416
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/core.py",
+        "path_type": "hardlink",
+        "sha256": "2210361f9227c751eea7451bb2941408a35b53830fe26b85e209462014d92b6f",
+        "sha256_in_prefix": "2210361f9227c751eea7451bb2941408a35b53830fe26b85e209462014d92b6f",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcb5e38e5a8c86bbe4c0565e0370077e942016608b8a621c1d62b78ae0e90322",
+        "sha256_in_prefix": "dcb5e38e5a8c86bbe4c0565e0370077e942016608b8a621c1d62b78ae0e90322",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/tests/__pycache__/test_pfft.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "edff3a7730e654c6a76167960055d43abe8e1099341733e6020fe6004b0871ce",
+        "sha256_in_prefix": "edff3a7730e654c6a76167960055d43abe8e1099341733e6020fe6004b0871ce",
+        "size_in_bytes": 8549
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/tests/test_pfft.py",
+        "path_type": "hardlink",
+        "sha256": "a73cc0bb5c52ee07c9032b919e638b2c938a1fe51676cd8cfee643bc8c8c8dea",
+        "sha256_in_prefix": "a73cc0bb5c52ee07c9032b919e638b2c938a1fe51676cd8cfee643bc8c8c8dea",
+        "size_in_bytes": 10778
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft/version.py",
+        "path_type": "hardlink",
+        "sha256": "a8498db639cec210d84347073cfb549146a08730f6c65d2d8491339e5e20898c",
+        "sha256_in_prefix": "a8498db639cec210d84347073cfb549146a08730f6c65d2d8491339e5e20898c",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "c59ef7657d16eb5a2b244d0a5ff732f6f3c70eb587f82808852ea5795f872f38",
+        "sha256_in_prefix": "c59ef7657d16eb5a2b244d0a5ff732f6f3c70eb587f82808852ea5795f872f38",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "dd674e2c7e48146547e434a098b7ac5eb9e07a509580aeb7aa8cdccc4d6f503c",
+        "sha256_in_prefix": "dd674e2c7e48146547e434a098b7ac5eb9e07a509580aeb7aa8cdccc4d6f503c",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "6624e47b99116beb1ac6db7256cbba7fc25a6300071f4f24d65bd56aa5bb4338",
+        "sha256_in_prefix": "6624e47b99116beb1ac6db7256cbba7fc25a6300071f4f24d65bd56aa5bb4338",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "c5e54daaf133d10fc8501ecb0ab82c38ce5671227a8809407521ef33511a35b4",
+        "sha256_in_prefix": "c5e54daaf133d10fc8501ecb0ab82c38ce5671227a8809407521ef33511a35b4",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/scripts/__pycache__/pfft-roundtrip-matrix.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "40b2247b9e3fb831e3d94092adf472ccde9db08c471e2c33a4263bff621124f7",
+        "sha256_in_prefix": "40b2247b9e3fb831e3d94092adf472ccde9db08c471e2c33a4263bff621124f7",
+        "size_in_bytes": 7781
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/scripts/pfft-roundtrip-matrix.py",
+        "path_type": "hardlink",
+        "sha256": "9f92a7bdc51275d7e180234af2b6ca40a142d13e57d239af5207cd13728eb58f",
+        "sha256_in_prefix": "9f92a7bdc51275d7e180234af2b6ca40a142d13e57d239af5207cd13728eb58f",
+        "size_in_bytes": 9952
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pfft_python-0.1.21-py3.7-linux-x86_64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "443915a512fc18b749e822384613bf3a36da65fa23caa7398e755214a9331abe",
+        "sha256_in_prefix": "443915a512fc18b749e822384613bf3a36da65fa23caa7398e755214a9331abe",
+        "size_in_bytes": 5
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 1403172,
+  "subdir": "linux-64",
+  "timestamp": 1584331710428,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/pfft-python-0.1.21-py37he0e0d13_10.tar.bz2",
+  "version": "0.1.21"
+}

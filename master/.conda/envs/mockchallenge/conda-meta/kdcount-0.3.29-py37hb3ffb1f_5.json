@@ -1,0 +1,335 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb3ffb1f_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/kdcount-0.3.29-py37hb3ffb1f_5",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/kdcount/__init__.py",
+    "lib/python3.7/site-packages/kdcount/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/bootstrap.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/cluster.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/correlate.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/models.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/sphere.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/bootstrap.py",
+    "lib/python3.7/site-packages/kdcount/cluster.py",
+    "lib/python3.7/site-packages/kdcount/correlate.py",
+    "lib/python3.7/site-packages/kdcount/models.py",
+    "lib/python3.7/site-packages/kdcount/pykdcount.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/kdcount/sphere.py",
+    "lib/python3.7/site-packages/kdcount/tests/__init__.py",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_bootstrap.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_cluster.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_correlate.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_model.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_sphere.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_tree.cpython-37.pyc",
+    "lib/python3.7/site-packages/kdcount/tests/test_bootstrap.py",
+    "lib/python3.7/site-packages/kdcount/tests/test_cluster.py",
+    "lib/python3.7/site-packages/kdcount/tests/test_correlate.py",
+    "lib/python3.7/site-packages/kdcount/tests/test_model.py",
+    "lib/python3.7/site-packages/kdcount/tests/test_sphere.py",
+    "lib/python3.7/site-packages/kdcount/tests/test_tree.py",
+    "lib/python3.7/site-packages/kdcount/utils.py",
+    "lib/python3.7/site-packages/kdcount/version.py"
+  ],
+  "fn": "kdcount-0.3.29-py37hb3ffb1f_5.tar.bz2",
+  "license": "GPL3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/kdcount-0.3.29-py37hb3ffb1f_5",
+    "type": 1
+  },
+  "md5": "08843fedf10dfb7ec6d9add265debb94",
+  "name": "kdcount",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/kdcount-0.3.29-py37hb3ffb1f_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "051ca618f9a3a9ed948b9229b7c3802812e5be85fd8d2c5f8362c8d7cb6afd3b",
+        "sha256_in_prefix": "051ca618f9a3a9ed948b9229b7c3802812e5be85fd8d2c5f8362c8d7cb6afd3b",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4a797dfb6744bb8b228dd14570843784489cb6af909c664e7670ffec52a080c2",
+        "sha256_in_prefix": "4a797dfb6744bb8b228dd14570843784489cb6af909c664e7670ffec52a080c2",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "a4514c54351dca368af6ae2562aecbd00b29a00181a76b15edf4b264baaff322",
+        "sha256_in_prefix": "a4514c54351dca368af6ae2562aecbd00b29a00181a76b15edf4b264baaff322",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount-0.3.29-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1871bc0774e40d6eedceaddc96213871ebe375d98b1f057920cb11317bfe22c5",
+        "sha256_in_prefix": "1871bc0774e40d6eedceaddc96213871ebe375d98b1f057920cb11317bfe22c5",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "48e1056ef3624729498558f003d35d94293e64db8792c3968e1f94a65708ab7b",
+        "sha256_in_prefix": "48e1056ef3624729498558f003d35d94293e64db8792c3968e1f94a65708ab7b",
+        "size_in_bytes": 6343
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fec22af0c70ac876346803ebcfaf22e73408c7b9a83e10685e67eab222d6bb2c",
+        "sha256_in_prefix": "fec22af0c70ac876346803ebcfaf22e73408c7b9a83e10685e67eab222d6bb2c",
+        "size_in_bytes": 7174
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/bootstrap.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bc586793ccc07200dd0edef1ff3b46309d8a4e14d0013b503be9d75a3034a0c",
+        "sha256_in_prefix": "3bc586793ccc07200dd0edef1ff3b46309d8a4e14d0013b503be9d75a3034a0c",
+        "size_in_bytes": 6277
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/cluster.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "91dbc1eb73d0862a5d3206ff1a2ffbf37dd4ac6e6ec66f654c3eb58716224103",
+        "sha256_in_prefix": "91dbc1eb73d0862a5d3206ff1a2ffbf37dd4ac6e6ec66f654c3eb58716224103",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/correlate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b293448702ee7e68ed6e0fe70f2808bb7ce22afd0e63185aa8b7d43e0cec6c4",
+        "sha256_in_prefix": "3b293448702ee7e68ed6e0fe70f2808bb7ce22afd0e63185aa8b7d43e0cec6c4",
+        "size_in_bytes": 30176
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/models.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cb289a1dd20e48cac0e50dda72af5aa899cde91ad69e865b5a77ccac088118d",
+        "sha256_in_prefix": "6cb289a1dd20e48cac0e50dda72af5aa899cde91ad69e865b5a77ccac088118d",
+        "size_in_bytes": 3696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/sphere.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "846a51758f27768e8ccc225dfe5d1cd60b657d3655eb02da6d176c836510b3fb",
+        "sha256_in_prefix": "846a51758f27768e8ccc225dfe5d1cd60b657d3655eb02da6d176c836510b3fb",
+        "size_in_bytes": 9846
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "592ca84555a87f45abc0cd2c097de57e92ee67e1ea7989e04d1c3094385fbeeb",
+        "sha256_in_prefix": "592ca84555a87f45abc0cd2c097de57e92ee67e1ea7989e04d1c3094385fbeeb",
+        "size_in_bytes": 2841
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e778dfffc468534fbd6a61ce16a4abd345dc546db527fa933fee5f0c19742cf",
+        "sha256_in_prefix": "3e778dfffc468534fbd6a61ce16a4abd345dc546db527fa933fee5f0c19742cf",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "6214f1a172fb54e21674fb0ed7ff3e14b43a5611b56779045666ae150932b926",
+        "sha256_in_prefix": "6214f1a172fb54e21674fb0ed7ff3e14b43a5611b56779045666ae150932b926",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/cluster.py",
+        "path_type": "hardlink",
+        "sha256": "7d412ce6df1429bf773cc6ab09f65db1dc210c1fc1e011d97cf80891993cc6d7",
+        "sha256_in_prefix": "7d412ce6df1429bf773cc6ab09f65db1dc210c1fc1e011d97cf80891993cc6d7",
+        "size_in_bytes": 3396
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/correlate.py",
+        "path_type": "hardlink",
+        "sha256": "922997597284b57c0a01e59ebc50a65a32f2c803644e89c47db2c0b5a3078879",
+        "sha256_in_prefix": "922997597284b57c0a01e59ebc50a65a32f2c803644e89c47db2c0b5a3078879",
+        "size_in_bytes": 32414
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/models.py",
+        "path_type": "hardlink",
+        "sha256": "3ca739bf290836f9ed2e5aba0fd8e455fac07e4002911d31cb71071cc15828f9",
+        "sha256_in_prefix": "3ca739bf290836f9ed2e5aba0fd8e455fac07e4002911d31cb71071cc15828f9",
+        "size_in_bytes": 2983
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/pykdcount.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3a9e8e3fdbe5924005ef1c0eca0e83aaaacfe49b536b843cd22ee7f79058aebb",
+        "sha256_in_prefix": "3a9e8e3fdbe5924005ef1c0eca0e83aaaacfe49b536b843cd22ee7f79058aebb",
+        "size_in_bytes": 1580880
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/sphere.py",
+        "path_type": "hardlink",
+        "sha256": "e0ac33037ae8bc0dd81041de37e00e5ac685005e6e75ec56ba596ac48e52f33c",
+        "sha256_in_prefix": "e0ac33037ae8bc0dd81041de37e00e5ac685005e6e75ec56ba596ac48e52f33c",
+        "size_in_bytes": 8696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7a3072b0a49ef69b83fbd7cd5749ce2aea1d8944715c219e70338c53feb4a51",
+        "sha256_in_prefix": "d7a3072b0a49ef69b83fbd7cd5749ce2aea1d8944715c219e70338c53feb4a51",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_bootstrap.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "502ed458adf1b27c5bf277297aa6d42384a0df959d2496b2049912cbeb12390f",
+        "sha256_in_prefix": "502ed458adf1b27c5bf277297aa6d42384a0df959d2496b2049912cbeb12390f",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_cluster.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f27f1e4a512498010e663dc0b7d8082420204ae096cf387a83ebb06dff3c383b",
+        "sha256_in_prefix": "f27f1e4a512498010e663dc0b7d8082420204ae096cf387a83ebb06dff3c383b",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_correlate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "55939bcdce43fdb51825b0679c8e5434b85c7f5e014c82bd22c1bb3dc7215c12",
+        "sha256_in_prefix": "55939bcdce43fdb51825b0679c8e5434b85c7f5e014c82bd22c1bb3dc7215c12",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_model.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "79cc958b89fd1cfb7e22f6d6de3e925ea818a73781c897058ac557d13cceb5f5",
+        "sha256_in_prefix": "79cc958b89fd1cfb7e22f6d6de3e925ea818a73781c897058ac557d13cceb5f5",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_sphere.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a8ccb99beaa0456f7a22c30633e76ce80ff59aaa90a42ba328100dce68bf8e9",
+        "sha256_in_prefix": "7a8ccb99beaa0456f7a22c30633e76ce80ff59aaa90a42ba328100dce68bf8e9",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/__pycache__/test_tree.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b34f1ac30990e6fca3e7bb0ed8e7df08af07a4f0177582048e96a4df3f5d0381",
+        "sha256_in_prefix": "b34f1ac30990e6fca3e7bb0ed8e7df08af07a4f0177582048e96a4df3f5d0381",
+        "size_in_bytes": 7774
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "ac721144bab58c11d499316f236a6d7067b0521393b3062d3ac514874a54d80f",
+        "sha256_in_prefix": "ac721144bab58c11d499316f236a6d7067b0521393b3062d3ac514874a54d80f",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "862ac5b54b58baccfcb189517e6ef8913dcfa05d4661b34eb03677b2f5c8e5ea",
+        "sha256_in_prefix": "862ac5b54b58baccfcb189517e6ef8913dcfa05d4661b34eb03677b2f5c8e5ea",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_correlate.py",
+        "path_type": "hardlink",
+        "sha256": "f164f059b0db519fa14061a46c039ead6ce320ca0fc65cca9fe4898eea1e3956",
+        "sha256_in_prefix": "f164f059b0db519fa14061a46c039ead6ce320ca0fc65cca9fe4898eea1e3956",
+        "size_in_bytes": 3912
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_model.py",
+        "path_type": "hardlink",
+        "sha256": "506829cd2402d1b9d9f107da83317b08b3b2fdb5fb204165b84ecda792ec1d23",
+        "sha256_in_prefix": "506829cd2402d1b9d9f107da83317b08b3b2fdb5fb204165b84ecda792ec1d23",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_sphere.py",
+        "path_type": "hardlink",
+        "sha256": "af367724ec56b22f6839b89a9b312f7c893f998fd41db68be8b3225ff5bc13fd",
+        "sha256_in_prefix": "af367724ec56b22f6839b89a9b312f7c893f998fd41db68be8b3225ff5bc13fd",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/tests/test_tree.py",
+        "path_type": "hardlink",
+        "sha256": "31677bb120eda5ae2496e1bd308966e2941f498b51f3cc57f6f6abbcdaac788e",
+        "sha256_in_prefix": "31677bb120eda5ae2496e1bd308966e2941f498b51f3cc57f6f6abbcdaac788e",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d2587b7f4ecc9416fbdf9f648a8696d3d2d5818f17bc15441dda33dd48fc4cdd",
+        "sha256_in_prefix": "d2587b7f4ecc9416fbdf9f648a8696d3d2d5818f17bc15441dda33dd48fc4cdd",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kdcount/version.py",
+        "path_type": "hardlink",
+        "sha256": "dc7f970b625ac06ea57c9b69e28081d22e7d41ea56ccd47a35faef4c7ba1a860",
+        "sha256_in_prefix": "dc7f970b625ac06ea57c9b69e28081d22e7d41ea56ccd47a35faef4c7ba1a860",
+        "size_in_bytes": 23
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "kdcount",
+  "size": 575340,
+  "subdir": "linux-64",
+  "timestamp": 1564358338145,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/kdcount-0.3.29-py37hb3ffb1f_5.tar.bz2",
+  "version": "0.3.29"
+}

@@ -1,0 +1,136 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "psutil",
+    "pytest >=3.1",
+    "python"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/pytest-openfiles-0.5.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/pytest_openfiles-0.5.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pytest_openfiles/__init__.py",
+    "lib/python3.7/site-packages/pytest_openfiles/plugin.py",
+    "lib/python3.7/site-packages/pytest_openfiles/version.py",
+    "lib/python3.7/site-packages/pytest_openfiles/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_openfiles/__pycache__/plugin.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_openfiles/__pycache__/version.cpython-37.pyc"
+  ],
+  "fn": "pytest-openfiles-0.5.0-py_0.conda",
+  "legacy_bz2_md5": "7e1f84fd9d21e41ac370193b6bd709e3",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/pytest-openfiles-0.5.0-py_0",
+    "type": 1
+  },
+  "md5": "bb194b289afc5a694d6438b5670d61d7",
+  "name": "pytest-openfiles",
+  "noarch": "python",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/pytest-openfiles-0.5.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "sha256_in_prefix": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8e597f755c952a72cc0a2d708f0b8436c799e001026a191f7e9cc4b79a956211",
+        "sha256_in_prefix": "8e597f755c952a72cc0a2d708f0b8436c799e001026a191f7e9cc4b79a956211",
+        "size_in_bytes": 4247
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2edbb2719b2083fe128d38ae16278d0e49fa19d1726b7b9d46f73f16bfbdab10",
+        "sha256_in_prefix": "2edbb2719b2083fe128d38ae16278d0e49fa19d1726b7b9d46f73f16bfbdab10",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "04be6b87ee135578797ed39042974a819dcb98dc4cb0975dd9d9955ae3ddd488",
+        "sha256_in_prefix": "04be6b87ee135578797ed39042974a819dcb98dc4cb0975dd9d9955ae3ddd488",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pytest_openfiles-0.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "180f0303f0cfcd2cbdef5ef9586c46b28203f4a351b7bde2228ba8147cb41cd9",
+        "sha256_in_prefix": "180f0303f0cfcd2cbdef5ef9586c46b28203f4a351b7bde2228ba8147cb41cd9",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pytest_openfiles/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ed5ecf4e998c992fe88188bc469cdd7e223f617b8196ba9636a8c2c0fc735c25",
+        "sha256_in_prefix": "ed5ecf4e998c992fe88188bc469cdd7e223f617b8196ba9636a8c2c0fc735c25",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "site-packages/pytest_openfiles/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "797ff7fc0ac18b0f8e620c871c3d33f8b80bc1f0462a9ecbcb764e3f3d311cda",
+        "sha256_in_prefix": "797ff7fc0ac18b0f8e620c871c3d33f8b80bc1f0462a9ecbcb764e3f3d311cda",
+        "size_in_bytes": 4453
+      },
+      {
+        "_path": "site-packages/pytest_openfiles/version.py",
+        "path_type": "hardlink",
+        "sha256": "8ef52dec615eb2d1d17e33faa25a7124d88eb9df6501a2e7c9b2a58057ea4f8a",
+        "sha256_in_prefix": "8ef52dec615eb2d1d17e33faa25a7124d88eb9df6501a2e7c9b2a58057ea4f8a",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_openfiles/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_openfiles/__pycache__/plugin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_openfiles/__pycache__/version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f1061645efe9a2fae22320df7b4d0e05ec23c6b7312ea31aa1dc232f32727731",
+  "size": 11284,
+  "subdir": "noarch",
+  "timestamp": 1588208780570,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pytest-openfiles-0.5.0-py_0.conda",
+  "version": "0.5.0"
+}

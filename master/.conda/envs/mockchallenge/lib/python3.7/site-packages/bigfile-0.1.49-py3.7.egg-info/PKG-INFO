@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bigfile
+Version: 0.1.49
+Summary: python binding of BigFile, a peta scale IO format
+Home-page: http://github.com/rainwoodman/bigfile
+Author: Yu Feng
+Author-email: rainwoodman@gmail.com
+License: BSD-2-Clause
+Description: UNKNOWN
+Platform: UNKNOWN

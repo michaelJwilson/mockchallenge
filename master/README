@@ -1,0 +1,12 @@
+conda activate /project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge
+
+$ git clone http://github.com/bccp/nbodykit
+$ cd nbodykit
+
+$ conda install -c bccp --file requirements.txt
+$ conda install -c bccp --file requirements-extras.txt
+
+$ git checkout master
+$ git pull origin master
+
+$ pip install -e /project/projectdirs/desi/users/mjwilson/mockchallenge/master/nbodykit

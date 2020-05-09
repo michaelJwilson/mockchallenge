@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pfft-python
+Version: 0.1.21
+Summary: python binding of PFFT, a massively parallel FFT library
+Home-page: http://github.com/rainwoodman/pfft-python
+Author: Yu Feng
+Author-email: rainwoodman@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy

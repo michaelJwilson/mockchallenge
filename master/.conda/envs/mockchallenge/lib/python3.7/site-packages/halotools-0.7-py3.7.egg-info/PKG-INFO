@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: halotools
+Version: 0.7
+Summary: Package designed to analyze N-body simulations and constrain models of cosmology and galaxy evolution.
+Home-page: http://astropy.org/
+Author: Andrew Hearin
+Author-email: ahearin@anl.gov
+License: BSD
+Description: 
+        Halotools is a specialized python package
+        for building and testing models of the galaxy-halo connection,
+        and analyzing catalogs of dark matter halos.
+        
+Platform: UNKNOWN
+Provides: halotools

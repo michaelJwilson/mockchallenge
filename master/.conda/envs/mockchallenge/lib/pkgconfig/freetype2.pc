@@ -1,0 +1,14 @@
+prefix=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge
+exec_prefix=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge
+libdir=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/lib
+includedir=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.1.16
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mcfit
+Version: 0.0.16
+Summary: Multiplicatively convolutional fast integral transforms
+Home-page: https://github.com/eelregit/mcfit
+Author: Yin Li
+Author-email: eelregit@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: numerical integral transform FFTLog cosmology
+Platform: UNKNOWN

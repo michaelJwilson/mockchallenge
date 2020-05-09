@@ -1,0 +1,11 @@
+cython
+numpy
+mpi4py
+mpsort
+pfft-python
+
+[abopt]
+abopt
+
+[full]
+abopt

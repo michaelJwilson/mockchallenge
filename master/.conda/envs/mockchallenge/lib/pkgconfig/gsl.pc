@@ -1,0 +1,11 @@
+prefix=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge
+exec_prefix=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge
+libdir=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/lib
+includedir=/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.4
+Libs: -L/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/project/projectdirs/desi/users/mjwilson/mockchallenge/master/.conda/envs/mockchallenge/include

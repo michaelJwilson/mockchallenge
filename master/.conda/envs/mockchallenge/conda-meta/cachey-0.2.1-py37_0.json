@@ -1,0 +1,150 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "heapdict",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/cachey-0.2.1-py37_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/cachey/__init__.py",
+    "lib/python3.7/site-packages/cachey/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachey/__pycache__/cache.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachey/__pycache__/nbytes.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachey/__pycache__/score.cpython-37.pyc",
+    "lib/python3.7/site-packages/cachey/cache.py",
+    "lib/python3.7/site-packages/cachey/nbytes.py",
+    "lib/python3.7/site-packages/cachey/score.py"
+  ],
+  "fn": "cachey-0.2.1-py37_0.tar.bz2",
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/cachey-0.2.1-py37_0",
+    "type": 1
+  },
+  "md5": "added45b4b527d0db4d9731dcb48360b",
+  "name": "cachey",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/cachey-0.2.1-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "2d83dcbf2358a457119d0d36fc1930bcc2ed3eddad4a44f6a0222705aa92a1eb",
+        "sha256_in_prefix": "2d83dcbf2358a457119d0d36fc1930bcc2ed3eddad4a44f6a0222705aa92a1eb",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "0182614c0744590cb4114cc8a1eb4a436e35371d47c116c4fa2201e4ac2e049e",
+        "sha256_in_prefix": "0182614c0744590cb4114cc8a1eb4a436e35371d47c116c4fa2201e4ac2e049e",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "4aa2165a4f7fb22d2518da04292232a8a0efa380840fbc116f393e407a7c455f",
+        "sha256_in_prefix": "4aa2165a4f7fb22d2518da04292232a8a0efa380840fbc116f393e407a7c455f",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey-0.2.1-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e271c21c8927e5890e8080a0be771a987d9ce8fa6121d9259d7916e5d0a8727c",
+        "sha256_in_prefix": "e271c21c8927e5890e8080a0be771a987d9ce8fa6121d9259d7916e5d0a8727c",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b667ca9ea9e5f9e21f64873327e2e21c1add5d9db3b6776f6aeed536e0d5c096",
+        "sha256_in_prefix": "b667ca9ea9e5f9e21f64873327e2e21c1add5d9db3b6776f6aeed536e0d5c096",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e524b2851b389c01cb1b4f150661ede5a2d98d543a94ff8265616f2b8ddddea9",
+        "sha256_in_prefix": "e524b2851b389c01cb1b4f150661ede5a2d98d543a94ff8265616f2b8ddddea9",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/__pycache__/cache.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "14e3dbe3eb255189e987e4286dc4c17d742875abb0d25240946fea7735d2cc9d",
+        "sha256_in_prefix": "14e3dbe3eb255189e987e4286dc4c17d742875abb0d25240946fea7735d2cc9d",
+        "size_in_bytes": 5644
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/__pycache__/nbytes.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad4e16305d8ec8be8e6b38cf1e2d7a9e11d7f0c035a2032a968f481681fda7ec",
+        "sha256_in_prefix": "ad4e16305d8ec8be8e6b38cf1e2d7a9e11d7f0c035a2032a968f481681fda7ec",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/__pycache__/score.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d03b4f8432491f39f966ab95f3565e53c7e78140a515f4fa60725cbc86cc76bf",
+        "sha256_in_prefix": "d03b4f8432491f39f966ab95f3565e53c7e78140a515f4fa60725cbc86cc76bf",
+        "size_in_bytes": 1871
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/cache.py",
+        "path_type": "hardlink",
+        "sha256": "748bc769d918798eda66275655b5aee4d3a6b769db711f744b1773e5813886f1",
+        "sha256_in_prefix": "748bc769d918798eda66275655b5aee4d3a6b769db711f744b1773e5813886f1",
+        "size_in_bytes": 5479
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/nbytes.py",
+        "path_type": "hardlink",
+        "sha256": "80fd67f4b3cc165dc1afe5e6c2262b43cf8c741fa3512d9262d12528a3235182",
+        "sha256_in_prefix": "80fd67f4b3cc165dc1afe5e6c2262b43cf8c741fa3512d9262d12528a3235182",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cachey/score.py",
+        "path_type": "hardlink",
+        "sha256": "f60bad86f9339056f429840a2853124c6fa6a45a92a38ad7fb9870d48061a506",
+        "sha256_in_prefix": "f60bad86f9339056f429840a2853124c6fa6a45a92a38ad7fb9870d48061a506",
+        "size_in_bytes": 1558
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "cachey",
+  "size": 10548,
+  "subdir": "linux-64",
+  "timestamp": 1584008497102,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/cachey-0.2.1-py37_0.tar.bz2",
+  "version": "0.2.1"
+}

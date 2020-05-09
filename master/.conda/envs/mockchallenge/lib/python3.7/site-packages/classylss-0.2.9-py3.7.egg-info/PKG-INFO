@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: classylss
+Version: 0.2.9
+Summary: lightweight Python binding of the CLASS CMB Boltzmann code
+Home-page: http://github.com/nickhand/classylss
+Author: Nick Hand, Yu Feng
+Author-email: nicholas.adam.hand@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests

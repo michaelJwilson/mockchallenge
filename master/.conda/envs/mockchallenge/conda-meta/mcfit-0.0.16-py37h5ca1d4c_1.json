@@ -1,0 +1,208 @@
+{
+  "arch": "x86_64",
+  "build": "py37h5ca1d4c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "mpmath",
+    "numpy",
+    "python >=3.7,<3.8.0a0",
+    "scipy"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/mcfit-0.0.16-py37h5ca1d4c_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/mcfit/__init__.py",
+    "lib/python3.7/site-packages/mcfit/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/__pycache__/cosmology.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/__pycache__/kernels.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/__pycache__/mcfit.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/__pycache__/transforms.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/cosmology.py",
+    "lib/python3.7/site-packages/mcfit/kernels.py",
+    "lib/python3.7/site-packages/mcfit/mcfit.py",
+    "lib/python3.7/site-packages/mcfit/tests/__init__.py",
+    "lib/python3.7/site-packages/mcfit/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/tests/__pycache__/test_mcfit.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/tests/__pycache__/test_transforms.cpython-37.pyc",
+    "lib/python3.7/site-packages/mcfit/tests/test_mcfit.py",
+    "lib/python3.7/site-packages/mcfit/tests/test_transforms.py",
+    "lib/python3.7/site-packages/mcfit/transforms.py"
+  ],
+  "fn": "mcfit-0.0.16-py37h5ca1d4c_1.tar.bz2",
+  "license": "GPLv3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/mcfit-0.0.16-py37h5ca1d4c_1",
+    "type": 1
+  },
+  "md5": "8a886bd01f0bff063abf7312d8c22f76",
+  "name": "mcfit",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/mcfit-0.0.16-py37h5ca1d4c_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ff927296c75d304b0d4fd572073c76b7cf980a4c3bf3e184f60d8ea2237955af",
+        "sha256_in_prefix": "ff927296c75d304b0d4fd572073c76b7cf980a4c3bf3e184f60d8ea2237955af",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "430e25c452f919d0a7973c114996bab5094886ddda32d37f2222dc8e3b1ada7d",
+        "sha256_in_prefix": "430e25c452f919d0a7973c114996bab5094886ddda32d37f2222dc8e3b1ada7d",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "834b95f435034610a6170f1f3c530631dc21afb80ad2dbc480118f3207eee9e8",
+        "sha256_in_prefix": "834b95f435034610a6170f1f3c530631dc21afb80ad2dbc480118f3207eee9e8",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit-0.0.16-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "648ad95e1f8a916ac7e19f506b200453b90fe1fe0acc05384503f67b7b699053",
+        "sha256_in_prefix": "648ad95e1f8a916ac7e19f506b200453b90fe1fe0acc05384503f67b7b699053",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8db4896a2b2aa75a0c8d79c90aea3a6d9e1d5ec950af7b1f0146a5fd0c822778",
+        "sha256_in_prefix": "8db4896a2b2aa75a0c8d79c90aea3a6d9e1d5ec950af7b1f0146a5fd0c822778",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfddb78362c6cfedc815272d1040188cc85f74349ccedc59b492980c11caac75",
+        "sha256_in_prefix": "cfddb78362c6cfedc815272d1040188cc85f74349ccedc59b492980c11caac75",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__pycache__/cosmology.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1895a4081c22d20114e15befbc5ca98011fbbdec762d6a8378bf6df386e7bd9",
+        "sha256_in_prefix": "f1895a4081c22d20114e15befbc5ca98011fbbdec762d6a8378bf6df386e7bd9",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__pycache__/kernels.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0ad867d62c1ca16f2f295ef48b402587a3d66492482be8d5a564fa2cbc87050",
+        "sha256_in_prefix": "b0ad867d62c1ca16f2f295ef48b402587a3d66492482be8d5a564fa2cbc87050",
+        "size_in_bytes": 6842
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__pycache__/mcfit.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1cd59888dd22bcdd666bc3435c63f226c43c8d113b45ce66232f5a096d77fb4",
+        "sha256_in_prefix": "c1cd59888dd22bcdd666bc3435c63f226c43c8d113b45ce66232f5a096d77fb4",
+        "size_in_bytes": 14371
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/__pycache__/transforms.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "08c36eee28725c9aa00380c079cd49c55f3fc175d7712c5a8f02ccc3fd918411",
+        "sha256_in_prefix": "08c36eee28725c9aa00380c079cd49c55f3fc175d7712c5a8f02ccc3fd918411",
+        "size_in_bytes": 5316
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/cosmology.py",
+        "path_type": "hardlink",
+        "sha256": "ad0acc75b57be52c2e56adf660bbf6f442ddd7fcc250ddb6d1e9a47a851d9f58",
+        "sha256_in_prefix": "ad0acc75b57be52c2e56adf660bbf6f442ddd7fcc250ddb6d1e9a47a851d9f58",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/kernels.py",
+        "path_type": "hardlink",
+        "sha256": "d703249abcdd2148fd71de9e7c9f9e75d39453d0b7907646245b051224dc3142",
+        "sha256_in_prefix": "d703249abcdd2148fd71de9e7c9f9e75d39453d0b7907646245b051224dc3142",
+        "size_in_bytes": 4438
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/mcfit.py",
+        "path_type": "hardlink",
+        "sha256": "9ee202e6d1e9b439c73d498370e8d0455c19756fa191c1a1401076ea8b5c2901",
+        "sha256_in_prefix": "9ee202e6d1e9b439c73d498370e8d0455c19756fa191c1a1401076ea8b5c2901",
+        "size_in_bytes": 15842
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e8ed452fc37b42a21a9c0cfa446e0a76617052677ecbf9121ce1bf00478445f",
+        "sha256_in_prefix": "8e8ed452fc37b42a21a9c0cfa446e0a76617052677ecbf9121ce1bf00478445f",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/__pycache__/test_mcfit.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd48de22ddf68f172002037e8063584ebea4fd957102baed70779d4ede5bd1bd",
+        "sha256_in_prefix": "bd48de22ddf68f172002037e8063584ebea4fd957102baed70779d4ede5bd1bd",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/__pycache__/test_transforms.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fd47de582b218883b211a0f7144cd2b2316d0a0bad7563e0b79ba3ae82cba71",
+        "sha256_in_prefix": "8fd47de582b218883b211a0f7144cd2b2316d0a0bad7563e0b79ba3ae82cba71",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/test_mcfit.py",
+        "path_type": "hardlink",
+        "sha256": "08dc636e59758aeb831a0a6ed8ebe803bf4959b209fd08631c535de79929891b",
+        "sha256_in_prefix": "08dc636e59758aeb831a0a6ed8ebe803bf4959b209fd08631c535de79929891b",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/tests/test_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "8d5d02f871014e2de15ba60c16fafd10d1dd198cb1f45049f833f215f570290e",
+        "sha256_in_prefix": "8d5d02f871014e2de15ba60c16fafd10d1dd198cb1f45049f833f215f570290e",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mcfit/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "c6d3fb3f60a32d50922d6038132ecaa47cab4a1d9bebdf76831740581f07e756",
+        "sha256_in_prefix": "c6d3fb3f60a32d50922d6038132ecaa47cab4a1d9bebdf76831740581f07e756",
+        "size_in_bytes": 4023
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "mcfit",
+  "size": 20655,
+  "subdir": "linux-64",
+  "timestamp": 1564358382890,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/mcfit-0.0.16-py37h5ca1d4c_1.tar.bz2",
+  "version": "0.0.16"
+}

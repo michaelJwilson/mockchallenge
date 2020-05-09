@@ -1,0 +1,264 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb3ffb1f_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libcurl >=7.69.1,<8.0a0",
+    "libgcc-ng >=7.3.0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/fitsio-1.1.2-py37hb3ffb1f_5",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/native_libs.txt",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/requires.txt",
+    "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/fitsio/__init__.py",
+    "lib/python3.7/site-packages/fitsio/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/__pycache__/_fitsio_wrap.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/__pycache__/fitslib.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/__pycache__/header.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/__pycache__/test.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/_fitsio_wrap.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/fitsio/_fitsio_wrap.py",
+    "lib/python3.7/site-packages/fitsio/fitslib.py",
+    "lib/python3.7/site-packages/fitsio/hdu/__init__.py",
+    "lib/python3.7/site-packages/fitsio/hdu/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/hdu/__pycache__/base.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/hdu/__pycache__/image.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/hdu/__pycache__/table.cpython-37.pyc",
+    "lib/python3.7/site-packages/fitsio/hdu/base.py",
+    "lib/python3.7/site-packages/fitsio/hdu/image.py",
+    "lib/python3.7/site-packages/fitsio/hdu/table.py",
+    "lib/python3.7/site-packages/fitsio/header.py",
+    "lib/python3.7/site-packages/fitsio/test.py",
+    "lib/python3.7/site-packages/fitsio/util.py"
+  ],
+  "fn": "fitsio-1.1.2-py37hb3ffb1f_5.tar.bz2",
+  "license": "GPL",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/fitsio-1.1.2-py37hb3ffb1f_5",
+    "type": 1
+  },
+  "md5": "ec9ab470dd6eaf515072a2656888de0d",
+  "name": "fitsio",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/fitsio-1.1.2-py37hb3ffb1f_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "3ee1684ddd82f0fdc9a8d0372191684e04009fbde41a7f92cfec625b8ef191d8",
+        "sha256_in_prefix": "3ee1684ddd82f0fdc9a8d0372191684e04009fbde41a7f92cfec625b8ef191d8",
+        "size_in_bytes": 18940
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "f971cab5813be394f69c7b5c9465a45112c786ad5197f5f20f865d4833c210cb",
+        "sha256_in_prefix": "f971cab5813be394f69c7b5c9465a45112c786ad5197f5f20f865d4833c210cb",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "7ab5128b504e0a5adc4d2e2513518b04778424b431ca18c11b5f0c4a98446f2e",
+        "sha256_in_prefix": "7ab5128b504e0a5adc4d2e2513518b04778424b431ca18c11b5f0c4a98446f2e",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+        "sha256_in_prefix": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio-1.1.2-py3.7-linux-x86_64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f9d6ac8c26470ea5dc4e758ef8161a6080b7446b7dba1a4597a7942f2f2b0723",
+        "sha256_in_prefix": "f9d6ac8c26470ea5dc4e758ef8161a6080b7446b7dba1a4597a7942f2f2b0723",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6dfc065e9db7e4b9a97b9fa6bbc6eb57235e38a28af932e8a22947a07b3edff",
+        "sha256_in_prefix": "f6dfc065e9db7e4b9a97b9fa6bbc6eb57235e38a28af932e8a22947a07b3edff",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "811a46f4e5b3d353577c3df50782636ffef183e7c56756286c2111199d0b9185",
+        "sha256_in_prefix": "811a46f4e5b3d353577c3df50782636ffef183e7c56756286c2111199d0b9185",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/_fitsio_wrap.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3619dbcb84ee7ec640547d67cd032662e194c9858d0557ded02a1ee5bafc4ead",
+        "sha256_in_prefix": "3619dbcb84ee7ec640547d67cd032662e194c9858d0557ded02a1ee5bafc4ead",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/fitslib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d74b5c15ec2cf77193487fd9d7337a14fe44b3515570ebc8d16632b7ccaa64f2",
+        "sha256_in_prefix": "d74b5c15ec2cf77193487fd9d7337a14fe44b3515570ebc8d16632b7ccaa64f2",
+        "size_in_bytes": 42841
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/header.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2c08f7c7e43f63b8d1e118dfc289a8a70736e2494127621f825c9d8eb90445a",
+        "sha256_in_prefix": "a2c08f7c7e43f63b8d1e118dfc289a8a70736e2494127621f825c9d8eb90445a",
+        "size_in_bytes": 18836
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/test.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d5dfa655bfb3f27a2f3817942819ff92bfb8921efe0443fd82a1e5edc354bb0",
+        "sha256_in_prefix": "6d5dfa655bfb3f27a2f3817942819ff92bfb8921efe0443fd82a1e5edc354bb0",
+        "size_in_bytes": 75490
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b3653b5884943a1df48fbb1dfa80a5741e05ccf00aac3eca4d81f4d621b4ed7",
+        "sha256_in_prefix": "6b3653b5884943a1df48fbb1dfa80a5741e05ccf00aac3eca4d81f4d621b4ed7",
+        "size_in_bytes": 3272
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/_fitsio_wrap.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f3ddaaa4f8ec14138ca5426df8270c1e562b0a4e042055d15abf756aa55a9158",
+        "sha256_in_prefix": "f3ddaaa4f8ec14138ca5426df8270c1e562b0a4e042055d15abf756aa55a9158",
+        "size_in_bytes": 1473256
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/_fitsio_wrap.py",
+        "path_type": "hardlink",
+        "sha256": "e4fbe88b25aa9a4b6545b543c1a21a52be4e6681c42a7bfa454c9cbe5b310fe8",
+        "sha256_in_prefix": "e4fbe88b25aa9a4b6545b543c1a21a52be4e6681c42a7bfa454c9cbe5b310fe8",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/fitslib.py",
+        "path_type": "hardlink",
+        "sha256": "a3d4ebeb01fb495fc000f321f2d257f5bf42e5e77371ec7121f2cf77044176d2",
+        "sha256_in_prefix": "a3d4ebeb01fb495fc000f321f2d257f5bf42e5e77371ec7121f2cf77044176d2",
+        "size_in_bytes": 56785
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b814e8931c4794aa789a52aff6241ea32c72e6931e7e8d025442b26bbacd813",
+        "sha256_in_prefix": "3b814e8931c4794aa789a52aff6241ea32c72e6931e7e8d025442b26bbacd813",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "43cf15fce9a72079dc8926d22970f041f9e4d98a183743fbe9edb6a356bf0e34",
+        "sha256_in_prefix": "43cf15fce9a72079dc8926d22970f041f9e4d98a183743fbe9edb6a356bf0e34",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7fbce48e691a309e6e4bd718df3959e69f5cf667fb063a6ae7176523f43b009",
+        "sha256_in_prefix": "b7fbce48e691a309e6e4bd718df3959e69f5cf667fb063a6ae7176523f43b009",
+        "size_in_bytes": 10860
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/__pycache__/image.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d97117f3444638f54f25cc3a58dcf85e6022c47e9687d1fa35da1a7b3d14946d",
+        "sha256_in_prefix": "d97117f3444638f54f25cc3a58dcf85e6022c47e9687d1fa35da1a7b3d14946d",
+        "size_in_bytes": 10560
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/__pycache__/table.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "539c5dd7ce0fb7e0344a73c08e5ccbbddc96655deb7f4ae53dcf3c29d3af39da",
+        "sha256_in_prefix": "539c5dd7ce0fb7e0344a73c08e5ccbbddc96655deb7f4ae53dcf3c29d3af39da",
+        "size_in_bytes": 60842
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/base.py",
+        "path_type": "hardlink",
+        "sha256": "b22cf0a67c213ea390144c8c30c2e8d0622292c4a8c54cbc696d261a026e3abd",
+        "sha256_in_prefix": "b22cf0a67c213ea390144c8c30c2e8d0622292c4a8c54cbc696d261a026e3abd",
+        "size_in_bytes": 12136
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/image.py",
+        "path_type": "hardlink",
+        "sha256": "2a9d3d591cf70b7d62df4281550c7c44d31b5fcc0352f79e42294adb95808965",
+        "sha256_in_prefix": "2a9d3d591cf70b7d62df4281550c7c44d31b5fcc0352f79e42294adb95808965",
+        "size_in_bytes": 13892
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/hdu/table.py",
+        "path_type": "hardlink",
+        "sha256": "dbbc8cd45699e89395d13915acffa41fffb804df499d2c458d4f2aedd63067c7",
+        "sha256_in_prefix": "dbbc8cd45699e89395d13915acffa41fffb804df499d2c458d4f2aedd63067c7",
+        "size_in_bytes": 87751
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/header.py",
+        "path_type": "hardlink",
+        "sha256": "678860af7f6884cd21457ea9ba4e37288340e773e26f0210af8d81eae825863b",
+        "sha256_in_prefix": "678860af7f6884cd21457ea9ba4e37288340e773e26f0210af8d81eae825863b",
+        "size_in_bytes": 21863
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/test.py",
+        "path_type": "hardlink",
+        "sha256": "5e63a3a9f997f883f12daa08e79987889fc814f0ff9f9c0f00aa26dc94d44dc3",
+        "sha256_in_prefix": "5e63a3a9f997f883f12daa08e79987889fc814f0ff9f9c0f00aa26dc94d44dc3",
+        "size_in_bytes": 111697
+      },
+      {
+        "_path": "lib/python3.7/site-packages/fitsio/util.py",
+        "path_type": "hardlink",
+        "sha256": "01b9da59eb32bfbc1ce0712e36a992439dd13ad2591e8fa6713de90830009d07",
+        "sha256_in_prefix": "01b9da59eb32bfbc1ce0712e36a992439dd13ad2591e8fa6713de90830009d07",
+        "size_in_bytes": 3459
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "fitsio",
+  "size": 683841,
+  "subdir": "linux-64",
+  "timestamp": 1588080843378,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/fitsio-1.1.2-py37hb3ffb1f_5.tar.bz2",
+  "version": "1.1.2"
+}

@@ -1,1 +1,0 @@
-/project/projectdirs/desi/users/mjwilson/repos/regress/lib/python3.7/site-packages/nbodykit/algorithms/fftpower.py

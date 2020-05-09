@@ -1,0 +1,8 @@
+numpy
+cython
+six
+
+[tests]
+runtests
+astropy
+scipy

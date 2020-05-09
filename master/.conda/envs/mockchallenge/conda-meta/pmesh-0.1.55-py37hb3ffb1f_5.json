@@ -1,0 +1,547 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb3ffb1f_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "cython",
+    "libgcc-ng >=7.3.0",
+    "mpi4py",
+    "mpsort",
+    "numpy >=1.9,<2.0a0",
+    "pfft-python",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/pmesh-0.1.55-py37hb3ffb1f_5",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/pmesh/__init__.py",
+    "lib/python3.7/site-packages/pmesh/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/_cic.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/abopt.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/cic.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/coarray.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/domain.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/invariant.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/lanczos.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/lic.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/particlemesh.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/pm.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/tools.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/transfer.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/tsc.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/whitenoise.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/__pycache__/window.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/_cic.py",
+    "lib/python3.7/site-packages/pmesh/_domain.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pmesh/_invariant.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pmesh/_whitenoise.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pmesh/_window.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pmesh/abopt.py",
+    "lib/python3.7/site-packages/pmesh/cic.py",
+    "lib/python3.7/site-packages/pmesh/coarray.py",
+    "lib/python3.7/site-packages/pmesh/domain.py",
+    "lib/python3.7/site-packages/pmesh/invariant.py",
+    "lib/python3.7/site-packages/pmesh/lanczos.py",
+    "lib/python3.7/site-packages/pmesh/lic.py",
+    "lib/python3.7/site-packages/pmesh/particlemesh.py",
+    "lib/python3.7/site-packages/pmesh/pm.py",
+    "lib/python3.7/site-packages/pmesh/tests/__init__.py",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test-particlemesh.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_abopt.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_domain.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_gradient.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_invariant.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_lic.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_pm.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_whitenoise.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_window.cpython-37.pyc",
+    "lib/python3.7/site-packages/pmesh/tests/test-particlemesh.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_abopt.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_domain.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_gradient.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_invariant.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_lic.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_pm.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_whitenoise.py",
+    "lib/python3.7/site-packages/pmesh/tests/test_window.py",
+    "lib/python3.7/site-packages/pmesh/tools.py",
+    "lib/python3.7/site-packages/pmesh/transfer.py",
+    "lib/python3.7/site-packages/pmesh/tsc.py",
+    "lib/python3.7/site-packages/pmesh/version.py",
+    "lib/python3.7/site-packages/pmesh/whitenoise.py",
+    "lib/python3.7/site-packages/pmesh/window.py"
+  ],
+  "fn": "pmesh-0.1.55-py37hb3ffb1f_5.tar.bz2",
+  "license": "GPL3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/pmesh-0.1.55-py37hb3ffb1f_5",
+    "type": 1
+  },
+  "md5": "db7181ed565b1d6b77f905d9bb07a208",
+  "name": "pmesh",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/pmesh-0.1.55-py37hb3ffb1f_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a594040c7f363354e1f2798e46b46e664436ff551c6a5d7ff9712e9e37cff3fd",
+        "sha256_in_prefix": "a594040c7f363354e1f2798e46b46e664436ff551c6a5d7ff9712e9e37cff3fd",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d4fa63aff0a4a656f2ef331d09ab91c0a741c38dc269d2607a994732e1656beb",
+        "sha256_in_prefix": "d4fa63aff0a4a656f2ef331d09ab91c0a741c38dc269d2607a994732e1656beb",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "6a0f633e5624b4b455d2026df2a4831d397398a4be8fae7d6156bd34c2454428",
+        "sha256_in_prefix": "6a0f633e5624b4b455d2026df2a4831d397398a4be8fae7d6156bd34c2454428",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh-0.1.55-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6ef2bbee0f03eebe9c39e4ca36e4df32583f897895fdf8f57ade082b62bcfe4b",
+        "sha256_in_prefix": "6ef2bbee0f03eebe9c39e4ca36e4df32583f897895fdf8f57ade082b62bcfe4b",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2736ff45f82f5c2ae6fd243801f786562d4ddfa6326f19cce66a72c6b9e28602",
+        "sha256_in_prefix": "2736ff45f82f5c2ae6fd243801f786562d4ddfa6326f19cce66a72c6b9e28602",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8af87a4cee93968c8d8214f8f4cfd6c167b0f113638042a5b9294e336a55d904",
+        "sha256_in_prefix": "8af87a4cee93968c8d8214f8f4cfd6c167b0f113638042a5b9294e336a55d904",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/_cic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "359cdb89f623f1280acbdc4ad7e69bacb4aabcaa3dc1f9f6692f8f720487b685",
+        "sha256_in_prefix": "359cdb89f623f1280acbdc4ad7e69bacb4aabcaa3dc1f9f6692f8f720487b685",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/abopt.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "979506035611598ff6725fe1f69982e3a03fe1665c08116b320edf1f8dce5813",
+        "sha256_in_prefix": "979506035611598ff6725fe1f69982e3a03fe1665c08116b320edf1f8dce5813",
+        "size_in_bytes": 14745
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/cic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aeb4b3e97a765cb52a264bb786004b275a51909a9e6631c8e89625e4cf738f38",
+        "sha256_in_prefix": "aeb4b3e97a765cb52a264bb786004b275a51909a9e6631c8e89625e4cf738f38",
+        "size_in_bytes": 3722
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/coarray.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b754819df2f84d950c7a359032cdf1f963bf5d26a688834053759c80e9b7c04",
+        "sha256_in_prefix": "7b754819df2f84d950c7a359032cdf1f963bf5d26a688834053759c80e9b7c04",
+        "size_in_bytes": 10915
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/domain.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "14ef4a59fe52fafb0c308cae7857dc1db762ce37a38c8814e81cce420946314c",
+        "sha256_in_prefix": "14ef4a59fe52fafb0c308cae7857dc1db762ce37a38c8814e81cce420946314c",
+        "size_in_bytes": 17381
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/invariant.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f63aed7634561f5d5cdd12b458103f2f9be8cdafa2f420bc6150da41090b65d8",
+        "sha256_in_prefix": "f63aed7634561f5d5cdd12b458103f2f9be8cdafa2f420bc6150da41090b65d8",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/lanczos.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "930751be5063c25cc52a18238b6a194f8b38a9d081e53769d3844bd8a1a8c281",
+        "sha256_in_prefix": "930751be5063c25cc52a18238b6a194f8b38a9d081e53769d3844bd8a1a8c281",
+        "size_in_bytes": 4242
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/lic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c9ad43d8dc32c6fadb28ef7a3e355bc6537684873ffba0ebc9f4eb6b938b99a",
+        "sha256_in_prefix": "1c9ad43d8dc32c6fadb28ef7a3e355bc6537684873ffba0ebc9f4eb6b938b99a",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/particlemesh.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "984d9ad554a910c6fe742e86f93c9fd91dedc54852f524c54c2fd7a6ac16cc0b",
+        "sha256_in_prefix": "984d9ad554a910c6fe742e86f93c9fd91dedc54852f524c54c2fd7a6ac16cc0b",
+        "size_in_bytes": 11122
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/pm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f60647156028b90086b6d6a196a0905186ebb5e85d5753c561618705c186c1ab",
+        "sha256_in_prefix": "f60647156028b90086b6d6a196a0905186ebb5e85d5753c561618705c186c1ab",
+        "size_in_bytes": 59396
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/tools.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a9acc851d4d11cc67ffa7a5289337ae5d3c69ed864d59224ca3c2aa76eb45da",
+        "sha256_in_prefix": "0a9acc851d4d11cc67ffa7a5289337ae5d3c69ed864d59224ca3c2aa76eb45da",
+        "size_in_bytes": 2824
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/transfer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f10b25ea8b544c2226265185863bcaa492742f73221bf36168ae4899919a7136",
+        "sha256_in_prefix": "f10b25ea8b544c2226265185863bcaa492742f73221bf36168ae4899919a7136",
+        "size_in_bytes": 8084
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/tsc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b50e92fe6c9b76035d22482964707f2c0f07d541e5bd929bed028f45c9b27eb",
+        "sha256_in_prefix": "6b50e92fe6c9b76035d22482964707f2c0f07d541e5bd929bed028f45c9b27eb",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "37af1b8f6bc79e99c3e96059a99fac152d8d279f0ba1ca2eb7ecd95087d1c86d",
+        "sha256_in_prefix": "37af1b8f6bc79e99c3e96059a99fac152d8d279f0ba1ca2eb7ecd95087d1c86d",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/whitenoise.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8c2ce40e83cd06c27a4c01f7219ce368ed3d4305bd6b348eefa341e3de11254",
+        "sha256_in_prefix": "f8c2ce40e83cd06c27a4c01f7219ce368ed3d4305bd6b348eefa341e3de11254",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/__pycache__/window.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4a0e96b7aa6bfe4fecb133be201c45e9315e91e2147a7e4f5bba7e755e0fce0",
+        "sha256_in_prefix": "f4a0e96b7aa6bfe4fecb133be201c45e9315e91e2147a7e4f5bba7e755e0fce0",
+        "size_in_bytes": 7162
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/_cic.py",
+        "path_type": "hardlink",
+        "sha256": "bc459d112ebf55a76c80317abcfefaa7412a44104414b3bd4a6dd5b176a48ddd",
+        "sha256_in_prefix": "bc459d112ebf55a76c80317abcfefaa7412a44104414b3bd4a6dd5b176a48ddd",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/_domain.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ecefdd313f69a74b9ec58c43d9c3dcfb32d919f256bbdbfd2b7588508f886c3e",
+        "sha256_in_prefix": "ecefdd313f69a74b9ec58c43d9c3dcfb32d919f256bbdbfd2b7588508f886c3e",
+        "size_in_bytes": 216328
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/_invariant.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8649d12b7d1995c77983b48a669231a6164a04b77ada0941c7e3ac2758c93cc0",
+        "sha256_in_prefix": "8649d12b7d1995c77983b48a669231a6164a04b77ada0941c7e3ac2758c93cc0",
+        "size_in_bytes": 259968
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/_whitenoise.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "926c5dcbd3e78e0b6ae617cce92a9aaa5262c013b7528894700b34c4f70ade8f",
+        "sha256_in_prefix": "926c5dcbd3e78e0b6ae617cce92a9aaa5262c013b7528894700b34c4f70ade8f",
+        "size_in_bytes": 214048
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/_window.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "bed9c4a3bdf1feb4d0ab9baa21e5d5fcb33e87e750c3771141d25d41bb0785ae",
+        "sha256_in_prefix": "bed9c4a3bdf1feb4d0ab9baa21e5d5fcb33e87e750c3771141d25d41bb0785ae",
+        "size_in_bytes": 1268976
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/abopt.py",
+        "path_type": "hardlink",
+        "sha256": "8390fc51e1613be0e93b8ed0322174d711c038ba56d6216db32548a494a5183e",
+        "sha256_in_prefix": "8390fc51e1613be0e93b8ed0322174d711c038ba56d6216db32548a494a5183e",
+        "size_in_bytes": 12379
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/cic.py",
+        "path_type": "hardlink",
+        "sha256": "8b16f4dc382ec2f63e7f49129dcd8a27e7aa3ceb5a9b8313ca0912dcff8c300f",
+        "sha256_in_prefix": "8b16f4dc382ec2f63e7f49129dcd8a27e7aa3ceb5a9b8313ca0912dcff8c300f",
+        "size_in_bytes": 4984
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/coarray.py",
+        "path_type": "hardlink",
+        "sha256": "64cf0328ad45c3a9d6a9e804335eb650ecbe5b2abfb96ac5498463a4c039bb00",
+        "sha256_in_prefix": "64cf0328ad45c3a9d6a9e804335eb650ecbe5b2abfb96ac5498463a4c039bb00",
+        "size_in_bytes": 10040
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/domain.py",
+        "path_type": "hardlink",
+        "sha256": "623565f4a259ecd13a2d8d101894e860d9632ee2789b42129e3c1bcec01a7971",
+        "sha256_in_prefix": "623565f4a259ecd13a2d8d101894e860d9632ee2789b42129e3c1bcec01a7971",
+        "size_in_bytes": 21853
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/invariant.py",
+        "path_type": "hardlink",
+        "sha256": "018703555dd701d72a7b2c6c87eaca9a5fcea2eec5f2aaa979c6f49e0d695907",
+        "sha256_in_prefix": "018703555dd701d72a7b2c6c87eaca9a5fcea2eec5f2aaa979c6f49e0d695907",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/lanczos.py",
+        "path_type": "hardlink",
+        "sha256": "ba33fe543f2cb31871711260093e7308b1900f8246179f4b6c0f79c8fc9b6e60",
+        "sha256_in_prefix": "ba33fe543f2cb31871711260093e7308b1900f8246179f4b6c0f79c8fc9b6e60",
+        "size_in_bytes": 4731
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/lic.py",
+        "path_type": "hardlink",
+        "sha256": "02f95bb0a2e76df644ebc98f841995069890baa5eee7650d18d5ea3fd8fb5468",
+        "sha256_in_prefix": "02f95bb0a2e76df644ebc98f841995069890baa5eee7650d18d5ea3fd8fb5468",
+        "size_in_bytes": 2449
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/particlemesh.py",
+        "path_type": "hardlink",
+        "sha256": "f6c1c1ab06fbcb320b2d63d0c1c80df3daa30a389e09515e31e68644e4099e33",
+        "sha256_in_prefix": "f6c1c1ab06fbcb320b2d63d0c1c80df3daa30a389e09515e31e68644e4099e33",
+        "size_in_bytes": 11959
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/pm.py",
+        "path_type": "hardlink",
+        "sha256": "0e57f185055b6c4eaf16a037614181f7f0d6dc6082426f1674d79595324b5ae0",
+        "sha256_in_prefix": "0e57f185055b6c4eaf16a037614181f7f0d6dc6082426f1674d79595324b5ae0",
+        "size_in_bytes": 70103
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "89cc992f539ebfb72b07be9ebf692a32ac4292b5f28e69ab1a49b9ba94b9f586",
+        "sha256_in_prefix": "89cc992f539ebfb72b07be9ebf692a32ac4292b5f28e69ab1a49b9ba94b9f586",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test-particlemesh.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "af775f5a9455745120586eb1ff11d81f73740b9f52241e8bd57f32c66d462fa1",
+        "sha256_in_prefix": "af775f5a9455745120586eb1ff11d81f73740b9f52241e8bd57f32c66d462fa1",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_abopt.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfcfc5d2944ece63a691fe6d59af7ce4fec9c6c0186b18aae7ab075c140ee17d",
+        "sha256_in_prefix": "bfcfc5d2944ece63a691fe6d59af7ce4fec9c6c0186b18aae7ab075c140ee17d",
+        "size_in_bytes": 5516
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_domain.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a45d5fb737418fff5684b491c66a258ccbdc37a40f2f6ca00d8554258b4772c5",
+        "sha256_in_prefix": "a45d5fb737418fff5684b491c66a258ccbdc37a40f2f6ca00d8554258b4772c5",
+        "size_in_bytes": 6676
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_gradient.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "32f49d9a0b9ff1de5285c0f43ea27fc868d24a6eaf96364098e808f38f4b2107",
+        "sha256_in_prefix": "32f49d9a0b9ff1de5285c0f43ea27fc868d24a6eaf96364098e808f38f4b2107",
+        "size_in_bytes": 8942
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_invariant.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "94286d136e39b55144e3c98bd88bce3fc22904d926485152ca6ae2bb1aa4fb98",
+        "sha256_in_prefix": "94286d136e39b55144e3c98bd88bce3fc22904d926485152ca6ae2bb1aa4fb98",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_lic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d355ad02a4c59821bedde57e7b1252c1f2cfa0489289543b5167b8c9004b7fc7",
+        "sha256_in_prefix": "d355ad02a4c59821bedde57e7b1252c1f2cfa0489289543b5167b8c9004b7fc7",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_pm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d575724dba6e6b59bb7c3b0406b576cbe9bf0371731989f5c36f30151b4d29f0",
+        "sha256_in_prefix": "d575724dba6e6b59bb7c3b0406b576cbe9bf0371731989f5c36f30151b4d29f0",
+        "size_in_bytes": 26682
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_whitenoise.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9c3323548bc93ff78425a929e0d09d0d665bdbf4dfc38ce46e87a7d5f5a7a5f",
+        "sha256_in_prefix": "c9c3323548bc93ff78425a929e0d09d0d665bdbf4dfc38ce46e87a7d5f5a7a5f",
+        "size_in_bytes": 4139
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/__pycache__/test_window.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78b709b22ccbbf010c06b09ad74218ec39c6a0fa1ec1f70a66503e75c95c036f",
+        "sha256_in_prefix": "78b709b22ccbbf010c06b09ad74218ec39c6a0fa1ec1f70a66503e75c95c036f",
+        "size_in_bytes": 8568
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test-particlemesh.py",
+        "path_type": "hardlink",
+        "sha256": "a54916400dfd6f66983b1ae61b80c30b72d96e6487c5ee0931aca72729bfdff0",
+        "sha256_in_prefix": "a54916400dfd6f66983b1ae61b80c30b72d96e6487c5ee0931aca72729bfdff0",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_abopt.py",
+        "path_type": "hardlink",
+        "sha256": "a630fcea98b84241b94cb62b55d467e341791813fe843f1b19fee8d40a5e39a5",
+        "sha256_in_prefix": "a630fcea98b84241b94cb62b55d467e341791813fe843f1b19fee8d40a5e39a5",
+        "size_in_bytes": 4613
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_domain.py",
+        "path_type": "hardlink",
+        "sha256": "ae454839908fd163f5f0c50abcece39c0b1f033d04eba826231e07658d8f8154",
+        "sha256_in_prefix": "ae454839908fd163f5f0c50abcece39c0b1f033d04eba826231e07658d8f8154",
+        "size_in_bytes": 7811
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_gradient.py",
+        "path_type": "hardlink",
+        "sha256": "f0a50de859dfcba8390c62b9a427ef62c9e3a3a2166b1cad131d15ea3bc04cfa",
+        "sha256_in_prefix": "f0a50de859dfcba8390c62b9a427ef62c9e3a3a2166b1cad131d15ea3bc04cfa",
+        "size_in_bytes": 10313
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_invariant.py",
+        "path_type": "hardlink",
+        "sha256": "fe0e6bbcba263c657c30204a61d58257ebb41ae4ae0dbdd820d910e39ad0ad41",
+        "sha256_in_prefix": "fe0e6bbcba263c657c30204a61d58257ebb41ae4ae0dbdd820d910e39ad0ad41",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_lic.py",
+        "path_type": "hardlink",
+        "sha256": "1fd64aad874f75a2ff538f3c3c7ba3ccc1c57ef8b4b9321e0f98c8f1a282af97",
+        "sha256_in_prefix": "1fd64aad874f75a2ff538f3c3c7ba3ccc1c57ef8b4b9321e0f98c8f1a282af97",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_pm.py",
+        "path_type": "hardlink",
+        "sha256": "97fe6ef5e658b460dee8a30335ca0d71b496b95947e8c4665af7d8c27341614c",
+        "sha256_in_prefix": "97fe6ef5e658b460dee8a30335ca0d71b496b95947e8c4665af7d8c27341614c",
+        "size_in_bytes": 29254
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_whitenoise.py",
+        "path_type": "hardlink",
+        "sha256": "ae49dbb2586fff57c6a559d4119544025a1f63f3cae7f60a0f540a8e46293976",
+        "sha256_in_prefix": "ae49dbb2586fff57c6a559d4119544025a1f63f3cae7f60a0f540a8e46293976",
+        "size_in_bytes": 4891
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tests/test_window.py",
+        "path_type": "hardlink",
+        "sha256": "5b6b7ab5e2a45fc03bc8caba6b833e687f852716b5883dab820a930416eaa7dc",
+        "sha256_in_prefix": "5b6b7ab5e2a45fc03bc8caba6b833e687f852716b5883dab820a930416eaa7dc",
+        "size_in_bytes": 8958
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tools.py",
+        "path_type": "hardlink",
+        "sha256": "7a36c5520cdb597f392e1ddc7d9f1f78264faa8e1aab69959e9bbc55da13440a",
+        "sha256_in_prefix": "7a36c5520cdb597f392e1ddc7d9f1f78264faa8e1aab69959e9bbc55da13440a",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/transfer.py",
+        "path_type": "hardlink",
+        "sha256": "09e8757bb1c16da1c4f8703b6c1ce7d1ca15562bc9b4349e79126b051175b7ba",
+        "sha256_in_prefix": "09e8757bb1c16da1c4f8703b6c1ce7d1ca15562bc9b4349e79126b051175b7ba",
+        "size_in_bytes": 7913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/tsc.py",
+        "path_type": "hardlink",
+        "sha256": "bcb5d27dd2027f39342e027f422e60bfa6f1c971895574da4dbcbfd50a48e66d",
+        "sha256_in_prefix": "bcb5d27dd2027f39342e027f422e60bfa6f1c971895574da4dbcbfd50a48e66d",
+        "size_in_bytes": 3781
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/version.py",
+        "path_type": "hardlink",
+        "sha256": "9927e489cbb125622c473c2f59381717a6b30ad98bc14f4f611438087b18a711",
+        "sha256_in_prefix": "9927e489cbb125622c473c2f59381717a6b30ad98bc14f4f611438087b18a711",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/whitenoise.py",
+        "path_type": "hardlink",
+        "sha256": "e2ad3cbc3b9a1a92f480c1df8af801d6c6c33cce1e0a13aa7d02a3f8398efa0f",
+        "sha256_in_prefix": "e2ad3cbc3b9a1a92f480c1df8af801d6c6c33cce1e0a13aa7d02a3f8398efa0f",
+        "size_in_bytes": 1536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pmesh/window.py",
+        "path_type": "hardlink",
+        "sha256": "6e5779feab9150429d986038064e2244809aa6e06580b48f7f2f47a4eb27b629",
+        "sha256_in_prefix": "6e5779feab9150429d986038064e2244809aa6e06580b48f7f2f47a4eb27b629",
+        "size_in_bytes": 7957
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "pmesh",
+  "size": 1183260,
+  "subdir": "linux-64",
+  "timestamp": 1584329846515,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/pmesh-0.1.55-py37hb3ffb1f_5.tar.bz2",
+  "version": "0.1.55"
+}

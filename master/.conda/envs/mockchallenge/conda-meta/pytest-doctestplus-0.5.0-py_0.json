@@ -1,0 +1,150 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.10",
+    "pytest >=3.0",
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/pytest-doctestplus-0.5.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.5.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pytest_doctestplus/__init__.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/output_checker.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/plugin.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/utils.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/output_checker.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/plugin.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/utils.cpython-37.pyc"
+  ],
+  "fn": "pytest-doctestplus-0.5.0-py_0.conda",
+  "legacy_bz2_md5": "64694115a78a27e6fc29480578a5a948",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/pytest-doctestplus-0.5.0-py_0",
+    "type": 1
+  },
+  "md5": "eccb5da092c6a0127452ca7c77488455",
+  "name": "pytest-doctestplus",
+  "noarch": "python",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/pytest-doctestplus-0.5.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "sha256_in_prefix": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4fa68b50f6866a2507774f976fffc9fd1aa7223ede2320b100cc8add1a3be30b",
+        "sha256_in_prefix": "4fa68b50f6866a2507774f976fffc9fd1aa7223ede2320b100cc8add1a3be30b",
+        "size_in_bytes": 10968
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "542dd77c83adefcef14068b5a5f778fe23e6ccae01aed2849a0b06b24be8d822",
+        "sha256_in_prefix": "542dd77c83adefcef14068b5a5f778fe23e6ccae01aed2849a0b06b24be8d822",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "sha256_in_prefix": "23bf6aa29589ebd9794fac196b2b7d55438c79c19918fceedbf89c6d16168e92",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "52fc2aa1cd7f23f4feb326f07d5d2cf0dd7d196f3f0ba7687cd6b2b524bb27c3",
+        "sha256_in_prefix": "52fc2aa1cd7f23f4feb326f07d5d2cf0dd7d196f3f0ba7687cd6b2b524bb27c3",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus-0.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a067cf0a6ad86dadbb4bf6fdcee5408d10a9d3582069ad68040bc7be262606be",
+        "sha256_in_prefix": "a067cf0a6ad86dadbb4bf6fdcee5408d10a9d3582069ad68040bc7be262606be",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2f6b1448886856769868f7dceab6861cbcbc80e2806ae14ed492c86a7da5f827",
+        "sha256_in_prefix": "2f6b1448886856769868f7dceab6861cbcbc80e2806ae14ed492c86a7da5f827",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus/output_checker.py",
+        "path_type": "hardlink",
+        "sha256": "e64eca3c8ff2d0621310ce40e6afe81507f95e0da01961ba3973c91cc11d6c1d",
+        "sha256_in_prefix": "e64eca3c8ff2d0621310ce40e6afe81507f95e0da01961ba3973c91cc11d6c1d",
+        "size_in_bytes": 11223
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus/plugin.py",
+        "path_type": "hardlink",
+        "sha256": "35e8fa4903d389a27aa5c4172282a4c6021ec4e3055e8f26751b0cc0cb039bfb",
+        "sha256_in_prefix": "35e8fa4903d389a27aa5c4172282a4c6021ec4e3055e8f26751b0cc0cb039bfb",
+        "size_in_bytes": 22998
+      },
+      {
+        "_path": "site-packages/pytest_doctestplus/utils.py",
+        "path_type": "hardlink",
+        "sha256": "91407d706afa55f526b8cb7587d38c361c59e9fba5aa97f1e9585efc2e63c003",
+        "sha256_in_prefix": "91407d706afa55f526b8cb7587d38c361c59e9fba5aa97f1e9585efc2e63c003",
+        "size_in_bytes": 3167
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/output_checker.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/plugin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e40c66f4eff9a273beff99f805aab0063f56ef2c036d8c3bf7b8e5a9787c65ee",
+  "size": 21389,
+  "subdir": "noarch",
+  "timestamp": 1574267968086,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pytest-doctestplus-0.5.0-py_0.conda",
+  "version": "0.5.0"
+}

@@ -1,0 +1,161 @@
+{
+  "arch": "x86_64",
+  "build": "py37he0e0d13_9",
+  "build_number": 9,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "mpi4py",
+    "mpich >=3.3.2,<3.4.0a0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/mpsort-0.1.17-py37he0e0d13_9",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/mpsort/__init__.py",
+    "lib/python3.7/site-packages/mpsort/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mpsort/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/mpsort/binding.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mpsort/tests/__init__.py",
+    "lib/python3.7/site-packages/mpsort/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mpsort/tests/__pycache__/test_mpsort.cpython-37.pyc",
+    "lib/python3.7/site-packages/mpsort/tests/test_mpsort.py",
+    "lib/python3.7/site-packages/mpsort/version.py"
+  ],
+  "fn": "mpsort-0.1.17-py37he0e0d13_9.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/mpsort-0.1.17-py37he0e0d13_9",
+    "type": 1
+  },
+  "md5": "a16c4cc080f96b194fedb1a5f578903f",
+  "name": "mpsort",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/mpsort-0.1.17-py37he0e0d13_9.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "4ce22efc1697daef1fa50d4625649ba38824b1c481dad9f8c38e396530497be6",
+        "sha256_in_prefix": "4ce22efc1697daef1fa50d4625649ba38824b1c481dad9f8c38e396530497be6",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "bd88042a752ad607052d72269a3a07d115a7327f95c7a2358dab39f3b016884e",
+        "sha256_in_prefix": "bd88042a752ad607052d72269a3a07d115a7327f95c7a2358dab39f3b016884e",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "c5e54daaf133d10fc8501ecb0ab82c38ce5671227a8809407521ef33511a35b4",
+        "sha256_in_prefix": "c5e54daaf133d10fc8501ecb0ab82c38ce5671227a8809407521ef33511a35b4",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort-0.1.17-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5f051b2e6709cca838862f00183c1d49159755f8d48a032f17d9fbab88ae7f07",
+        "sha256_in_prefix": "5f051b2e6709cca838862f00183c1d49159755f8d48a032f17d9fbab88ae7f07",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac801fd51172ebf67bb56163c10c53ac6f231e644723623da08c8902862438d2",
+        "sha256_in_prefix": "ac801fd51172ebf67bb56163c10c53ac6f231e644723623da08c8902862438d2",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0009b060a358e9503b543688d454341929883982f5c0314760f1ac863edf7f5",
+        "sha256_in_prefix": "f0009b060a358e9503b543688d454341929883982f5c0314760f1ac863edf7f5",
+        "size_in_bytes": 4818
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "44b7e322c356c69e0844b9c71a97cdec7ba84df9682f82bdf02624bd2f085b9b",
+        "sha256_in_prefix": "44b7e322c356c69e0844b9c71a97cdec7ba84df9682f82bdf02624bd2f085b9b",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/binding.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "57d2a118bf199891c9b806f4eefb133458f01896795e6aa0a4c5e2eea21729d8",
+        "sha256_in_prefix": "57d2a118bf199891c9b806f4eefb133458f01896795e6aa0a4c5e2eea21729d8",
+        "size_in_bytes": 105600
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "45b74a5719ef6257beb2e550c5726acaa2b3b330369a0818c1b59d270ca7ad14",
+        "sha256_in_prefix": "45b74a5719ef6257beb2e550c5726acaa2b3b330369a0818c1b59d270ca7ad14",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/tests/__pycache__/test_mpsort.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8326a5c2d282e3f61b3e12a9085f2b2d9fd2b444f335c697b2647256328899ed",
+        "sha256_in_prefix": "8326a5c2d282e3f61b3e12a9085f2b2d9fd2b444f335c697b2647256328899ed",
+        "size_in_bytes": 7517
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/tests/test_mpsort.py",
+        "path_type": "hardlink",
+        "sha256": "be00ec2ce866303123e772d35abd69dd0807631058b3ecd542715cd39f3b533f",
+        "sha256_in_prefix": "be00ec2ce866303123e772d35abd69dd0807631058b3ecd542715cd39f3b533f",
+        "size_in_bytes": 7420
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mpsort/version.py",
+        "path_type": "hardlink",
+        "sha256": "0732239e48bc073ddebcd5a8e9b8c6c71a4b872fed37d311621b4cd0c9c3896b",
+        "sha256_in_prefix": "0732239e48bc073ddebcd5a8e9b8c6c71a4b872fed37d311621b4cd0c9c3896b",
+        "size_in_bytes": 23
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "mpsort",
+  "size": 53867,
+  "subdir": "linux-64",
+  "timestamp": 1584331309502,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/mpsort-0.1.17-py37he0e0d13_9.tar.bz2",
+  "version": "0.1.17"
+}

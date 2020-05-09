@@ -1,0 +1,56 @@
+{
+  "build": "py37h10f8cd9_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2",
+    "libgcc-ng >=7.2.0",
+    "mpc",
+    "mpfr >=4.0.1,<5.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/gmpy2-2.0.8-py37h10f8cd9_2",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+    "lib/python3.7/site-packages/gmpy2.cpython-37m-x86_64-linux-gnu.so"
+  ],
+  "fn": "gmpy2-2.0.8-py37h10f8cd9_2.conda",
+  "legacy_bz2_md5": "3fa4ca5bcfc72e5786653a36820ccaa9",
+  "license": "LGPL 3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/gmpy2-2.0.8-py37h10f8cd9_2",
+    "type": 1
+  },
+  "md5": "cc62b3fc5bf73f0f14ff68d6c730216f",
+  "name": "gmpy2",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/gmpy2-2.0.8-py37h10f8cd9_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "16ea1710a2c9f865e8cef40ca007b2fbd1380230d9529adedb234cf4a5aa8026",
+        "sha256_in_prefix": "16ea1710a2c9f865e8cef40ca007b2fbd1380230d9529adedb234cf4a5aa8026",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "lib/python3.7/site-packages/gmpy2.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b1d5654e956b2f46417d16b80327bb19a8ea31a5533ffb6780cb2988a2399a44",
+        "sha256_in_prefix": "b1d5654e956b2f46417d16b80327bb19a8ea31a5533ffb6780cb2988a2399a44",
+        "size_in_bytes": 551896
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b3c7622ed107f9ab287eb2d5e901f058217812ad7863a834d47d5284f51f2b17",
+  "size": 153253,
+  "subdir": "linux-64",
+  "timestamp": 1530892262558,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gmpy2-2.0.8-py37h10f8cd9_2.tar.bz2",
+  "version": "2.0.8"
+}

@@ -1,0 +1,345 @@
+{
+  "arch": "x86_64",
+  "build": "py37ha5dfbcb_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "cython",
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/classylss-0.2.9-py37ha5dfbcb_7",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/classylss/__init__.py",
+    "lib/python3.7/site-packages/classylss/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/classylss/__pycache__/astropy_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/classylss/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/classylss/astropy_compat.py",
+    "lib/python3.7/site-packages/classylss/binding.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/classylss/data/bbn/sBBN.dat",
+    "lib/python3.7/site-packages/classylss/data/bbn/sBBN_2017.dat",
+    "lib/python3.7/site-packages/classylss/data/bbn/sBBN_2017_marcucci.dat",
+    "lib/python3.7/site-packages/classylss/data/benchmark.ini",
+    "lib/python3.7/site-packages/classylss/data/cl_ref.pre",
+    "lib/python3.7/site-packages/classylss/data/concise.ini",
+    "lib/python3.7/site-packages/classylss/data/explanatory.ini",
+    "lib/python3.7/site-packages/classylss/data/external_Pk/Pk_example.dat",
+    "lib/python3.7/site-packages/classylss/data/external_Pk/Pk_example_w_tensors.dat",
+    "lib/python3.7/site-packages/classylss/data/hyrec/Alpha_inf.dat",
+    "lib/python3.7/site-packages/classylss/data/hyrec/R_inf.dat",
+    "lib/python3.7/site-packages/classylss/data/hyrec/input.dat",
+    "lib/python3.7/site-packages/classylss/data/hyrec/two_photon_tables.dat",
+    "lib/python3.7/site-packages/classylss/data/lcdm.ini",
+    "lib/python3.7/site-packages/classylss/data/myevolution.dat",
+    "lib/python3.7/site-packages/classylss/data/myselection.dat",
+    "lib/python3.7/site-packages/classylss/data/output/explanatory00_cl.dat",
+    "lib/python3.7/site-packages/classylss/data/output/explanatory00_cl_lensed.dat",
+    "lib/python3.7/site-packages/classylss/data/output/explanatory00_parameters.ini",
+    "lib/python3.7/site-packages/classylss/data/pk_ref.pre",
+    "lib/python3.7/site-packages/classylss/data/psd_FD_single.dat",
+    "lib/python3.7/site-packages/classylss/data/trg.ini",
+    "lib/python3.7/site-packages/classylss/tests/__pycache__/test_against_astropy.cpython-37.pyc",
+    "lib/python3.7/site-packages/classylss/tests/__pycache__/test_binding.cpython-37.pyc",
+    "lib/python3.7/site-packages/classylss/tests/test_against_astropy.py",
+    "lib/python3.7/site-packages/classylss/tests/test_binding.py",
+    "lib/python3.7/site-packages/classylss/version.py"
+  ],
+  "fn": "classylss-0.2.9-py37ha5dfbcb_7.tar.bz2",
+  "license": "GPL3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/classylss-0.2.9-py37ha5dfbcb_7",
+    "type": 1
+  },
+  "md5": "599130d6260de3ba0124a58da01c11af",
+  "name": "classylss",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/classylss-0.2.9-py37ha5dfbcb_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ee2591cec3d3a4e944e416a176bd8b90fa809afffbf327b029cb18d00b1dfa00",
+        "sha256_in_prefix": "ee2591cec3d3a4e944e416a176bd8b90fa809afffbf327b029cb18d00b1dfa00",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "f391ddfee722fb51898cf3be5d007237e9a620cf530dfa76ff3c7ebecee3a12e",
+        "sha256_in_prefix": "f391ddfee722fb51898cf3be5d007237e9a620cf530dfa76ff3c7ebecee3a12e",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "2d012d1c9a1409ed979afb1eec9f44d9ac8c729eb2c846e16fc1f27a8e6b53b2",
+        "sha256_in_prefix": "2d012d1c9a1409ed979afb1eec9f44d9ac8c729eb2c846e16fc1f27a8e6b53b2",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss-0.2.9-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8880a396389b791e8897f7211c93f492c5c25cfdb880d16b03a01be69745014e",
+        "sha256_in_prefix": "8880a396389b791e8897f7211c93f492c5c25cfdb880d16b03a01be69745014e",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "546b13622504eda7d6e0d8c3c74df195a240372e073e58978d0e36c60ca0c398",
+        "sha256_in_prefix": "546b13622504eda7d6e0d8c3c74df195a240372e073e58978d0e36c60ca0c398",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "139cbf9777ed0b4dbf71e72a14023b3a121d40950efdd5bc06488d733c92f131",
+        "sha256_in_prefix": "139cbf9777ed0b4dbf71e72a14023b3a121d40950efdd5bc06488d733c92f131",
+        "size_in_bytes": 2418
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/__pycache__/astropy_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b015ac801c86cc035914cb804f8a8269b46c7c046e9e27c5fec2875aa0751b7",
+        "sha256_in_prefix": "3b015ac801c86cc035914cb804f8a8269b46c7c046e9e27c5fec2875aa0751b7",
+        "size_in_bytes": 5619
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3f73203a5f5196ddabc011da4a4a5e2f9a73f9fbd7c829bf1ac779cac760694",
+        "sha256_in_prefix": "a3f73203a5f5196ddabc011da4a4a5e2f9a73f9fbd7c829bf1ac779cac760694",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/astropy_compat.py",
+        "path_type": "hardlink",
+        "sha256": "1701384dc4955edada577f13742b4a4616bc9e94c5b32921671109a8344515a6",
+        "sha256_in_prefix": "1701384dc4955edada577f13742b4a4616bc9e94c5b32921671109a8344515a6",
+        "size_in_bytes": 3979
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/binding.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "db3268ab58e3308dd4b0bf0efa64e08b1914d42837315bc507e5e249f151d707",
+        "sha256_in_prefix": "db3268ab58e3308dd4b0bf0efa64e08b1914d42837315bc507e5e249f151d707",
+        "size_in_bytes": 1436744
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/bbn/sBBN.dat",
+        "path_type": "hardlink",
+        "sha256": "ca471c1383f8a6645940ec41fd77f6b11849539205a8d79306df52c2e954cd61",
+        "sha256_in_prefix": "ca471c1383f8a6645940ec41fd77f6b11849539205a8d79306df52c2e954cd61",
+        "size_in_bytes": 8119
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/bbn/sBBN_2017.dat",
+        "path_type": "hardlink",
+        "sha256": "4be90fbbc19095c78e77e805e67e3b7bc0e11741c3e7f05c9c65769e3c149986",
+        "sha256_in_prefix": "4be90fbbc19095c78e77e805e67e3b7bc0e11741c3e7f05c9c65769e3c149986",
+        "size_in_bytes": 11212
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/bbn/sBBN_2017_marcucci.dat",
+        "path_type": "hardlink",
+        "sha256": "c07e97c08059984d5c153c330c7d163361f47ae4b6e59a1a34f824207c6f18ac",
+        "sha256_in_prefix": "c07e97c08059984d5c153c330c7d163361f47ae4b6e59a1a34f824207c6f18ac",
+        "size_in_bytes": 11247
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/benchmark.ini",
+        "path_type": "hardlink",
+        "sha256": "810826039815317816c1f0c59382a43edec39d9d1749d37be195c56bc5487768",
+        "sha256_in_prefix": "810826039815317816c1f0c59382a43edec39d9d1749d37be195c56bc5487768",
+        "size_in_bytes": 20863
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/cl_ref.pre",
+        "path_type": "hardlink",
+        "sha256": "8b8a2bddc5ea95289460534a8ff1eedb6eddde038006a7a8eac32d6e74e317d3",
+        "sha256_in_prefix": "8b8a2bddc5ea95289460534a8ff1eedb6eddde038006a7a8eac32d6e74e317d3",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/concise.ini",
+        "path_type": "hardlink",
+        "sha256": "d18bf94cdc44f8afebb7ae3c31030d73d3a31df154a33c75a35c3298c321833b",
+        "sha256_in_prefix": "d18bf94cdc44f8afebb7ae3c31030d73d3a31df154a33c75a35c3298c321833b",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/explanatory.ini",
+        "path_type": "hardlink",
+        "sha256": "5389d32c0a36c4a8a730f5c4caa6bdc9922709470a8d0ae77ec5c9b8b2104f88",
+        "sha256_in_prefix": "5389d32c0a36c4a8a730f5c4caa6bdc9922709470a8d0ae77ec5c9b8b2104f88",
+        "size_in_bytes": 36244
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/external_Pk/Pk_example.dat",
+        "path_type": "hardlink",
+        "sha256": "938842a4ae7415b6d9b0281a4b8ed1e6adf780ec4c99ab5d01b8a686dc1ffdb7",
+        "sha256_in_prefix": "938842a4ae7415b6d9b0281a4b8ed1e6adf780ec4c99ab5d01b8a686dc1ffdb7",
+        "size_in_bytes": 64926
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/external_Pk/Pk_example_w_tensors.dat",
+        "path_type": "hardlink",
+        "sha256": "f30081c2d9d1e66918201e37ce615b46b9c2b3f47ae10f1b37544c94961608a8",
+        "sha256_in_prefix": "f30081c2d9d1e66918201e37ce615b46b9c2b3f47ae10f1b37544c94961608a8",
+        "size_in_bytes": 98418
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/hyrec/Alpha_inf.dat",
+        "path_type": "hardlink",
+        "sha256": "c543c755d99ba8e999450dd5cb486a3ad88d26378da0ccc8363b10418e4832bd",
+        "sha256_in_prefix": "c543c755d99ba8e999450dd5cb486a3ad88d26378da0ccc8363b10418e4832bd",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/hyrec/R_inf.dat",
+        "path_type": "hardlink",
+        "sha256": "ce914f4b552ba55ba00f7916f36b0986f19adfdb638e5aefae91f7b2d05a8112",
+        "sha256_in_prefix": "ce914f4b552ba55ba00f7916f36b0986f19adfdb638e5aefae91f7b2d05a8112",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/hyrec/input.dat",
+        "path_type": "hardlink",
+        "sha256": "828432ec74b16183db98db02c461bff2dad705799a8a08779e41b14c6a8cbc33",
+        "sha256_in_prefix": "828432ec74b16183db98db02c461bff2dad705799a8a08779e41b14c6a8cbc33",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/hyrec/two_photon_tables.dat",
+        "path_type": "hardlink",
+        "sha256": "93d23871e21c40f5b72a6ef9acf3eb7be054735c8aee9401e455736c1d9d8cf9",
+        "sha256_in_prefix": "93d23871e21c40f5b72a6ef9acf3eb7be054735c8aee9401e455736c1d9d8cf9",
+        "size_in_bytes": 25191
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/lcdm.ini",
+        "path_type": "hardlink",
+        "sha256": "888264533aeb95d924371cc0314eb842a3e54994edcd42dc39a99ad791c2bb6c",
+        "sha256_in_prefix": "888264533aeb95d924371cc0314eb842a3e54994edcd42dc39a99ad791c2bb6c",
+        "size_in_bytes": 7235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/myevolution.dat",
+        "path_type": "hardlink",
+        "sha256": "ca5d87d3158cfa3c702738ce1ccb9bb2257b1c9531c1724da894e9da53e91d23",
+        "sha256_in_prefix": "ca5d87d3158cfa3c702738ce1ccb9bb2257b1c9531c1724da894e9da53e91d23",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/myselection.dat",
+        "path_type": "hardlink",
+        "sha256": "03bfdac16b682a4d1b695c74975860882e72a17658691255e7b532c7feb4deac",
+        "sha256_in_prefix": "03bfdac16b682a4d1b695c74975860882e72a17658691255e7b532c7feb4deac",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/output/explanatory00_cl.dat",
+        "path_type": "hardlink",
+        "sha256": "7e8f1de335e8064b4aa3e93afdd0429037c26d36e2434f8c8036cc3b5b4ace5e",
+        "sha256_in_prefix": "7e8f1de335e8064b4aa3e93afdd0429037c26d36e2434f8c8036cc3b5b4ace5e",
+        "size_in_bytes": 546285
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/output/explanatory00_cl_lensed.dat",
+        "path_type": "hardlink",
+        "sha256": "96ddec016949e2ae00123314559d954f3397a8d8f50a158bd37a0865d2c11353",
+        "sha256_in_prefix": "96ddec016949e2ae00123314559d954f3397a8d8f50a158bd37a0865d2c11353",
+        "size_in_bytes": 455292
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/output/explanatory00_parameters.ini",
+        "path_type": "hardlink",
+        "sha256": "2a70071e6434b45ec1746e45571dd03b28acce7c43309d031a5dcda5be94de2a",
+        "sha256_in_prefix": "2a70071e6434b45ec1746e45571dd03b28acce7c43309d031a5dcda5be94de2a",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/pk_ref.pre",
+        "path_type": "hardlink",
+        "sha256": "b2d2a15898ebfd00b7b50be26e17421d6b9b889b14ae5f2017162bbeefba0515",
+        "sha256_in_prefix": "b2d2a15898ebfd00b7b50be26e17421d6b9b889b14ae5f2017162bbeefba0515",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/psd_FD_single.dat",
+        "path_type": "hardlink",
+        "sha256": "ed8f1a584c205cbc67df518dfd38bc8c3b6adc77ed73430af0674aed71a27580",
+        "sha256_in_prefix": "ed8f1a584c205cbc67df518dfd38bc8c3b6adc77ed73430af0674aed71a27580",
+        "size_in_bytes": 3400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/data/trg.ini",
+        "path_type": "hardlink",
+        "sha256": "37bc484f41c0f98a6cb3a55df245c979d935c6f7bd036e322bdd07362031555a",
+        "sha256_in_prefix": "37bc484f41c0f98a6cb3a55df245c979d935c6f7bd036e322bdd07362031555a",
+        "size_in_bytes": 12571
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/tests/__pycache__/test_against_astropy.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d643c1f9c11f727dd9b7bbfbae6e04eb72c7600995524185d0f33e7913cc58b3",
+        "sha256_in_prefix": "d643c1f9c11f727dd9b7bbfbae6e04eb72c7600995524185d0f33e7913cc58b3",
+        "size_in_bytes": 2615
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/tests/__pycache__/test_binding.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc50c72af761a1f6ec9be71e597bdf17573a3d4fc6ce9783a16ec23889763bd0",
+        "sha256_in_prefix": "fc50c72af761a1f6ec9be71e597bdf17573a3d4fc6ce9783a16ec23889763bd0",
+        "size_in_bytes": 2832
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/tests/test_against_astropy.py",
+        "path_type": "hardlink",
+        "sha256": "be6c9f4c7482fb9d764b4b2c0b76d209ee6f6a97f00302063e140d374d371c82",
+        "sha256_in_prefix": "be6c9f4c7482fb9d764b4b2c0b76d209ee6f6a97f00302063e140d374d371c82",
+        "size_in_bytes": 4321
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/tests/test_binding.py",
+        "path_type": "hardlink",
+        "sha256": "ffe70fe8a951ea2c9e9a281de9246dfc49e53bf640197e20c462f55f1d7a4f43",
+        "sha256_in_prefix": "ffe70fe8a951ea2c9e9a281de9246dfc49e53bf640197e20c462f55f1d7a4f43",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "lib/python3.7/site-packages/classylss/version.py",
+        "path_type": "hardlink",
+        "sha256": "da4faa7e3709b798fdef697923e9f1ddc1296d20dae5a90b2f2040a87ebb0ebc",
+        "sha256_in_prefix": "da4faa7e3709b798fdef697923e9f1ddc1296d20dae5a90b2f2040a87ebb0ebc",
+        "size_in_bytes": 42
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "classylss[version='>=0.2']",
+  "size": 947730,
+  "subdir": "linux-64",
+  "timestamp": 1564358026096,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/classylss-0.2.9-py37ha5dfbcb_7.tar.bz2",
+  "version": "0.2.9"
+}

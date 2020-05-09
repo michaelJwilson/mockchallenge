@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kdcount
+Version: 0.3.29
+Summary: A slower KDTree cross correlator
+Home-page: http://github.com/rainwoodman/kdcount
+Author: Yu Feng
+Author-email: rainwoodman@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN

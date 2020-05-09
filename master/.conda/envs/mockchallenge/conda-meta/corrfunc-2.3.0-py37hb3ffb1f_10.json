@@ -1,0 +1,801 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb3ffb1f_10",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "future",
+    "gsl >=2.4,<2.5.0a0",
+    "libgcc-ng >=7.3.0",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "wurlitzer"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/corrfunc-2.3.0-py37hb3ffb1f_10",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/Corrfunc/__init__.py",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/call_correlation_functions.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/call_correlation_functions_mocks.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/io.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/tests.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/_countpairs.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/Corrfunc/_countpairs_mocks.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/Corrfunc/call_correlation_functions.py",
+    "lib/python3.7/site-packages/Corrfunc/call_correlation_functions_mocks.py",
+    "lib/python3.7/site-packages/Corrfunc/io.py",
+    "lib/python3.7/site-packages/Corrfunc/mocks/DDrppi_mocks.py",
+    "lib/python3.7/site-packages/Corrfunc/mocks/DDsmu_mocks.py",
+    "lib/python3.7/site-packages/Corrfunc/mocks/DDtheta_mocks.py",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__init__.py",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDrppi_mocks.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDsmu_mocks.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDtheta_mocks.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/vpf_mocks.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/mocks/vpf_mocks.py",
+    "lib/python3.7/site-packages/Corrfunc/tests.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/DD.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/DDrppi.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/DDsmu.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/__init__.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DD.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DDrppi.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DDsmu.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/vpf.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/wp.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/xi.cpython-37.pyc",
+    "lib/python3.7/site-packages/Corrfunc/theory/vpf.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/wp.py",
+    "lib/python3.7/site-packages/Corrfunc/theory/xi.py",
+    "lib/python3.7/site-packages/Corrfunc/utils.py",
+    "lib/python3.7/site-packages/include/countpairs.h",
+    "lib/python3.7/site-packages/include/countpairs_rp_pi.h",
+    "lib/python3.7/site-packages/include/countpairs_rp_pi_mocks.h",
+    "lib/python3.7/site-packages/include/countpairs_s_mu.h",
+    "lib/python3.7/site-packages/include/countpairs_s_mu_mocks.h",
+    "lib/python3.7/site-packages/include/countpairs_theta_mocks.h",
+    "lib/python3.7/site-packages/include/countpairs_wp.h",
+    "lib/python3.7/site-packages/include/countpairs_xi.h",
+    "lib/python3.7/site-packages/include/countspheres.h",
+    "lib/python3.7/site-packages/include/countspheres_mocks.h",
+    "lib/python3.7/site-packages/lib/libcountpairs.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_rp_pi.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_rp_pi_mocks.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_s_mu.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_s_mu_mocks.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_theta_mocks.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_wp.a",
+    "lib/python3.7/site-packages/lib/libcountpairs_xi.a",
+    "lib/python3.7/site-packages/lib/libcountspheres.a",
+    "lib/python3.7/site-packages/lib/libcountspheres_mocks.a",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock.DD",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock.DR",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock_DDsmu.DR",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock_DDsmu.RR",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock_vpf",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock_wtheta.DD",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_mock_wtheta.DR",
+    "lib/python3.7/site-packages/mocks/tests/Mr19_randoms_vpf",
+    "lib/python3.7/site-packages/mocks/tests/angular_bins",
+    "lib/python3.7/site-packages/mocks/tests/bins",
+    "lib/python3.7/site-packages/mocks/tests/data/Mr19_centers_xyz_forVPF_rmax_10Mpc.txt",
+    "lib/python3.7/site-packages/mocks/tests/data/Mr19_mock_northonly.rdcz.dat",
+    "lib/python3.7/site-packages/mocks/tests/data/Mr19_mock_northonly.rdcz.ff",
+    "lib/python3.7/site-packages/mocks/tests/data/Mr19_randoms_northonly.rdcz.ff",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DD_nonperiodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DD_periodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DDrppi_nonperiodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DDrppi_periodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DDsmu_nonperiodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_DDsmu_periodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_vpf_periodic",
+    "lib/python3.7/site-packages/theory/tests/Mr19_wp",
+    "lib/python3.7/site-packages/theory/tests/Mr19_xi",
+    "lib/python3.7/site-packages/theory/tests/bins",
+    "lib/python3.7/site-packages/theory/tests/cmass_DD_periodic",
+    "lib/python3.7/site-packages/theory/tests/cmass_DR_nonperiodic",
+    "lib/python3.7/site-packages/theory/tests/cmass_DR_periodic",
+    "lib/python3.7/site-packages/theory/tests/cmass_RR_periodic",
+    "lib/python3.7/site-packages/theory/tests/data/cmassmock_Zspace.ff",
+    "lib/python3.7/site-packages/theory/tests/data/gals_Mr19.ff",
+    "lib/python3.7/site-packages/theory/tests/data/random_Zspace.ff"
+  ],
+  "fn": "corrfunc-2.3.0-py37hb3ffb1f_10.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/corrfunc-2.3.0-py37hb3ffb1f_10",
+    "type": 1
+  },
+  "md5": "ab388d25709c9751029f201aea4c44e7",
+  "name": "corrfunc",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/corrfunc-2.3.0-py37hb3ffb1f_10.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "76382da088484de5c71e888a8be0dad541a65759c53612fd361a32c46565865d",
+        "sha256_in_prefix": "76382da088484de5c71e888a8be0dad541a65759c53612fd361a32c46565865d",
+        "size_in_bytes": 21643
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "1b6e39a9856802d16287cb1eb06454f59386401f749f0060bd5016484567c885",
+        "sha256_in_prefix": "1b6e39a9856802d16287cb1eb06454f59386401f749f0060bd5016484567c885",
+        "size_in_bytes": 10144
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "c2124d0bb7aaa21dc77278148a1ea11003457425421e887d134aa9b231239237",
+        "sha256_in_prefix": "c2124d0bb7aaa21dc77278148a1ea11003457425421e887d134aa9b231239237",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc-2.3.0-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7422f24bf68a0668583502f837169d4849b15dab53125feebabaf4f73cdbad43",
+        "sha256_in_prefix": "7422f24bf68a0668583502f837169d4849b15dab53125feebabaf4f73cdbad43",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7c12acc57e905124fbc0d630b52258de30daef42f21558c43eda84499dcba4ef",
+        "sha256_in_prefix": "7c12acc57e905124fbc0d630b52258de30daef42f21558c43eda84499dcba4ef",
+        "size_in_bytes": 3066
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "139b709798402562ff9e241079298bb70394b7f90449cd623d493a6e7d7b3fb9",
+        "sha256_in_prefix": "139b709798402562ff9e241079298bb70394b7f90449cd623d493a6e7d7b3fb9",
+        "size_in_bytes": 3040
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/call_correlation_functions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fd86f5246de158772d7664c2633ea723728de63c6709cb38836c265380935c0",
+        "sha256_in_prefix": "3fd86f5246de158772d7664c2633ea723728de63c6709cb38836c265380935c0",
+        "size_in_bytes": 5086
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/call_correlation_functions_mocks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f30d83bb77583a72215aaebd649fc6a5494a6260a8fc3c5f5112cbecf3221fb6",
+        "sha256_in_prefix": "f30d83bb77583a72215aaebd649fc6a5494a6260a8fc3c5f5112cbecf3221fb6",
+        "size_in_bytes": 4799
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/io.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "023859bbd7fc62bd191a6be0e6718832b629d762c972f12fe418fc6922ee0932",
+        "sha256_in_prefix": "023859bbd7fc62bd191a6be0e6718832b629d762c972f12fe418fc6922ee0932",
+        "size_in_bytes": 8386
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/tests.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ecae2d2c524a25bec5dbcd72c06a09eea00a0667aa15edf720d21037430a936",
+        "sha256_in_prefix": "7ecae2d2c524a25bec5dbcd72c06a09eea00a0667aa15edf720d21037430a936",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed456e2a0db70f9184cea316a57ba055825ff6a862898fe5d10aa86d5fb48d4c",
+        "sha256_in_prefix": "ed456e2a0db70f9184cea316a57ba055825ff6a862898fe5d10aa86d5fb48d4c",
+        "size_in_bytes": 30071
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/_countpairs.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "0953923e4b148038a8853512c8abe9e9043f813baa06ce78b28641563d9be125",
+        "sha256_in_prefix": "0953923e4b148038a8853512c8abe9e9043f813baa06ce78b28641563d9be125",
+        "size_in_bytes": 1372624
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/_countpairs_mocks.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3e08ed73b3ecfd4924f62a6a581b7c4e3af3b824734f700f4724f337d1ee58ca",
+        "sha256_in_prefix": "3e08ed73b3ecfd4924f62a6a581b7c4e3af3b824734f700f4724f337d1ee58ca",
+        "size_in_bytes": 1719328
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/call_correlation_functions.py",
+        "path_type": "hardlink",
+        "sha256": "a4ed2bbe806451fae0bc8234e8960394416950b19ac6c8ad1758d32234f0f9b8",
+        "sha256_in_prefix": "a4ed2bbe806451fae0bc8234e8960394416950b19ac6c8ad1758d32234f0f9b8",
+        "size_in_bytes": 7117
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/call_correlation_functions_mocks.py",
+        "path_type": "hardlink",
+        "sha256": "1fb745db91bf09eb2ebba24da3f4e921d9d539bf8d7491cff307d13d20220ee9",
+        "sha256_in_prefix": "1fb745db91bf09eb2ebba24da3f4e921d9d539bf8d7491cff307d13d20220ee9",
+        "size_in_bytes": 6501
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/io.py",
+        "path_type": "hardlink",
+        "sha256": "1e8687f84bd82f142f477446c8e0b4005b206603a42ac43cda396fc9d5a292f9",
+        "sha256_in_prefix": "1e8687f84bd82f142f477446c8e0b4005b206603a42ac43cda396fc9d5a292f9",
+        "size_in_bytes": 10355
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/DDrppi_mocks.py",
+        "path_type": "hardlink",
+        "sha256": "4318fb29d909d5277879a4486e3d2c47d4c4cabee1fd1a829dca428720b8b300",
+        "sha256_in_prefix": "4318fb29d909d5277879a4486e3d2c47d4c4cabee1fd1a829dca428720b8b300",
+        "size_in_bytes": 18757
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/DDsmu_mocks.py",
+        "path_type": "hardlink",
+        "sha256": "dbf8211b26b61abbb974ec4395980f3ab2a4023fd99e8b296a932be70bec9609",
+        "sha256_in_prefix": "dbf8211b26b61abbb974ec4395980f3ab2a4023fd99e8b296a932be70bec9609",
+        "size_in_bytes": 15288
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/DDtheta_mocks.py",
+        "path_type": "hardlink",
+        "sha256": "04b567d9455d1dd9ea3e7a3140336985936e22c4ee2f6485b60ce7ca48ef0eaf",
+        "sha256_in_prefix": "04b567d9455d1dd9ea3e7a3140336985936e22c4ee2f6485b60ce7ca48ef0eaf",
+        "size_in_bytes": 15767
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d40d2d5f480e07a55b6045f7904b3e24f572071db3b67d87e6014262f88c0b4",
+        "sha256_in_prefix": "2d40d2d5f480e07a55b6045f7904b3e24f572071db3b67d87e6014262f88c0b4",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDrppi_mocks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0aeb95303402ee117925e1f667c5992cc389ba65d42ba28274c17663e1833c6",
+        "sha256_in_prefix": "c0aeb95303402ee117925e1f667c5992cc389ba65d42ba28274c17663e1833c6",
+        "size_in_bytes": 17008
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDsmu_mocks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "867bde16773fee9e145060248aaacf9b033bd45ed26707a9bbeda7683a76ab46",
+        "sha256_in_prefix": "867bde16773fee9e145060248aaacf9b033bd45ed26707a9bbeda7683a76ab46",
+        "size_in_bytes": 13319
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/DDtheta_mocks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "86d7aacc997e930aa48fe918c3efcd579a44813a5fa3f9acaaaa6311ffa1b3dc",
+        "sha256_in_prefix": "86d7aacc997e930aa48fe918c3efcd579a44813a5fa3f9acaaaa6311ffa1b3dc",
+        "size_in_bytes": 14086
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "01db402d6aacbe92ef21f54b401d71ab430460c5ec2132a9de60e4f4632cdcc7",
+        "sha256_in_prefix": "01db402d6aacbe92ef21f54b401d71ab430460c5ec2132a9de60e4f4632cdcc7",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/__pycache__/vpf_mocks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ed7086c486dbe7cf2cf5b4f82d96a26a1c9b6e49ae19879484e0e81ea54ee8b",
+        "sha256_in_prefix": "7ed7086c486dbe7cf2cf5b4f82d96a26a1c9b6e49ae19879484e0e81ea54ee8b",
+        "size_in_bytes": 13376
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/mocks/vpf_mocks.py",
+        "path_type": "hardlink",
+        "sha256": "894e67fc815edc51fd0d3302fc23cee1bf8522c04cee4f647a7507585d3a58da",
+        "sha256_in_prefix": "894e67fc815edc51fd0d3302fc23cee1bf8522c04cee4f647a7507585d3a58da",
+        "size_in_bytes": 14385
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/tests.py",
+        "path_type": "hardlink",
+        "sha256": "611c4bf6fae6467bb033e3b6d64334e34208af76c622bc3ce5ca6e9f13f52a8e",
+        "sha256_in_prefix": "611c4bf6fae6467bb033e3b6d64334e34208af76c622bc3ce5ca6e9f13f52a8e",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/DD.py",
+        "path_type": "hardlink",
+        "sha256": "0c29267e79d3716d0fbc09cd1b0f7235c4b6d6899828a791ce96c71bf9c27bec",
+        "sha256_in_prefix": "0c29267e79d3716d0fbc09cd1b0f7235c4b6d6899828a791ce96c71bf9c27bec",
+        "size_in_bytes": 11581
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/DDrppi.py",
+        "path_type": "hardlink",
+        "sha256": "1e972fd2fdb846e6d6298d892d3224148fb4a7faa8f3f43e123552552d7b3685",
+        "sha256_in_prefix": "1e972fd2fdb846e6d6298d892d3224148fb4a7faa8f3f43e123552552d7b3685",
+        "size_in_bytes": 14847
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/DDsmu.py",
+        "path_type": "hardlink",
+        "sha256": "d739925f0928ead77d5207e4dd18798857df6ef127792677fc9bdabf97828596",
+        "sha256_in_prefix": "d739925f0928ead77d5207e4dd18798857df6ef127792677fc9bdabf97828596",
+        "size_in_bytes": 15688
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6e9c99afafc0c72bd0443e2ca688c98cab114c6f522c2110ef3937292a42132",
+        "sha256_in_prefix": "c6e9c99afafc0c72bd0443e2ca688c98cab114c6f522c2110ef3937292a42132",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DD.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0084ada0552ad9f6934771ffe3cae0b687b7170d20d610cb1dee7ef14200864e",
+        "sha256_in_prefix": "0084ada0552ad9f6934771ffe3cae0b687b7170d20d610cb1dee7ef14200864e",
+        "size_in_bytes": 10271
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DDrppi.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5782f8dd5e517fa7209e7ce6f8fa015990256e5d04dfd96c6f8349fe162fb435",
+        "sha256_in_prefix": "5782f8dd5e517fa7209e7ce6f8fa015990256e5d04dfd96c6f8349fe162fb435",
+        "size_in_bytes": 13311
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/DDsmu.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0203eb1d8fe7308c81a20241f7bc0c66deee887b1228a3aa511dba21445db6b5",
+        "sha256_in_prefix": "0203eb1d8fe7308c81a20241f7bc0c66deee887b1228a3aa511dba21445db6b5",
+        "size_in_bytes": 13899
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f23bc9da8221f6404a82fb838e37d0cee53f81d45602eaaea33896b3eae780b",
+        "sha256_in_prefix": "9f23bc9da8221f6404a82fb838e37d0cee53f81d45602eaaea33896b3eae780b",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/vpf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f148c520a6e93b619d25203e2998e91402c1eadb8f45e7715182ec99ae541f67",
+        "sha256_in_prefix": "f148c520a6e93b619d25203e2998e91402c1eadb8f45e7715182ec99ae541f67",
+        "size_in_bytes": 9170
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/wp.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2eeafdf6d2ff3cce075fc6c838e415d9e713ae346a9ef44775427ac72962d93f",
+        "sha256_in_prefix": "2eeafdf6d2ff3cce075fc6c838e415d9e713ae346a9ef44775427ac72962d93f",
+        "size_in_bytes": 19675
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/__pycache__/xi.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e02fc141137875f7ff87cc8de8cfed5b4db227e00edf2ce1efbde9f19aa659e",
+        "sha256_in_prefix": "7e02fc141137875f7ff87cc8de8cfed5b4db227e00edf2ce1efbde9f19aa659e",
+        "size_in_bytes": 9857
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/vpf.py",
+        "path_type": "hardlink",
+        "sha256": "cfd98f4703e3f2a393aa777e497da0fad94d06836a563ffcaa2b7c334ceb14f2",
+        "sha256_in_prefix": "cfd98f4703e3f2a393aa777e497da0fad94d06836a563ffcaa2b7c334ceb14f2",
+        "size_in_bytes": 10307
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/wp.py",
+        "path_type": "hardlink",
+        "sha256": "abe2de01d846c522898893e3de946c0ce4ed8a1ad2e2be160adb627a2e9bf17f",
+        "sha256_in_prefix": "abe2de01d846c522898893e3de946c0ce4ed8a1ad2e2be160adb627a2e9bf17f",
+        "size_in_bytes": 23195
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/theory/xi.py",
+        "path_type": "hardlink",
+        "sha256": "c95dafccdd7342a92920eeefed1863145aa5a986aff88e11b2716d9f807858c0",
+        "sha256_in_prefix": "c95dafccdd7342a92920eeefed1863145aa5a986aff88e11b2716d9f807858c0",
+        "size_in_bytes": 10975
+      },
+      {
+        "_path": "lib/python3.7/site-packages/Corrfunc/utils.py",
+        "path_type": "hardlink",
+        "sha256": "debccb2819a9e27265fa20526f98470abfc8ba05fecfc1f12ef1c2155bae0ccb",
+        "sha256_in_prefix": "debccb2819a9e27265fa20526f98470abfc8ba05fecfc1f12ef1c2155bae0ccb",
+        "size_in_bytes": 35685
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs.h",
+        "path_type": "hardlink",
+        "sha256": "10aa507deec57a39c23a2acbcafadfa61fcf23dc0335ea96180fd4ad8856fc8f",
+        "sha256_in_prefix": "10aa507deec57a39c23a2acbcafadfa61fcf23dc0335ea96180fd4ad8856fc8f",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_rp_pi.h",
+        "path_type": "hardlink",
+        "sha256": "541585c6568994dfbf7d072e46ac980ccb68e6e1b5532ab80c04d15dd1c43938",
+        "sha256_in_prefix": "541585c6568994dfbf7d072e46ac980ccb68e6e1b5532ab80c04d15dd1c43938",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_rp_pi_mocks.h",
+        "path_type": "hardlink",
+        "sha256": "60fc560c471563c764c1fef524b6e9aa01bac7e27c139ab7cf96e55b86eafde2",
+        "sha256_in_prefix": "60fc560c471563c764c1fef524b6e9aa01bac7e27c139ab7cf96e55b86eafde2",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_s_mu.h",
+        "path_type": "hardlink",
+        "sha256": "e95a23233929a5f5e38fe0300e5796a4e16e7990e6772479ca2a9f0a6f2dff1e",
+        "sha256_in_prefix": "e95a23233929a5f5e38fe0300e5796a4e16e7990e6772479ca2a9f0a6f2dff1e",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_s_mu_mocks.h",
+        "path_type": "hardlink",
+        "sha256": "16a8ecb8b685e5f85db5d5da111764e55fda8c73257a0acccc403a185749b796",
+        "sha256_in_prefix": "16a8ecb8b685e5f85db5d5da111764e55fda8c73257a0acccc403a185749b796",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_theta_mocks.h",
+        "path_type": "hardlink",
+        "sha256": "636f809a825d421000b6d65df8e3af3be3331da3b8a9a1b7f9f875f02d7481c0",
+        "sha256_in_prefix": "636f809a825d421000b6d65df8e3af3be3331da3b8a9a1b7f9f875f02d7481c0",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_wp.h",
+        "path_type": "hardlink",
+        "sha256": "9041318101edeacbe6a0c66b4fd50f90d5cdea54e72424c9790c64f25329961f",
+        "sha256_in_prefix": "9041318101edeacbe6a0c66b4fd50f90d5cdea54e72424c9790c64f25329961f",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countpairs_xi.h",
+        "path_type": "hardlink",
+        "sha256": "2db80ab151678df60e63e66ff4fe6ab8ec1d80fefaa7846bc7f4d301fb297b94",
+        "sha256_in_prefix": "2db80ab151678df60e63e66ff4fe6ab8ec1d80fefaa7846bc7f4d301fb297b94",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countspheres.h",
+        "path_type": "hardlink",
+        "sha256": "ac44ae4effb3521a11ee95a876324ed8704f57fec46294adf1e670f01f441916",
+        "sha256_in_prefix": "ac44ae4effb3521a11ee95a876324ed8704f57fec46294adf1e670f01f441916",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/python3.7/site-packages/include/countspheres_mocks.h",
+        "path_type": "hardlink",
+        "sha256": "53d6a09433641e781a5ad5dd0540615fdcef9d2b48cfe04792b83e8bf9c8e90f",
+        "sha256_in_prefix": "53d6a09433641e781a5ad5dd0540615fdcef9d2b48cfe04792b83e8bf9c8e90f",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs.a",
+        "path_type": "hardlink",
+        "sha256": "dca84c823f9771e80bfb030c42204b05f4afafb7333dd0156aaa331a19b08483",
+        "sha256_in_prefix": "dca84c823f9771e80bfb030c42204b05f4afafb7333dd0156aaa331a19b08483",
+        "size_in_bytes": 845324
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_rp_pi.a",
+        "path_type": "hardlink",
+        "sha256": "04c00fe9a6123d75747905f5d2c2e09147f830d4ec0953acefed606b42a11e57",
+        "sha256_in_prefix": "04c00fe9a6123d75747905f5d2c2e09147f830d4ec0953acefed606b42a11e57",
+        "size_in_bytes": 873442
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_rp_pi_mocks.a",
+        "path_type": "hardlink",
+        "sha256": "a65858aebe2f04365a0d8c7e9f3878f74c51f47b9608267956c92c5d076b819f",
+        "sha256_in_prefix": "a65858aebe2f04365a0d8c7e9f3878f74c51f47b9608267956c92c5d076b819f",
+        "size_in_bytes": 1509732
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_s_mu.a",
+        "path_type": "hardlink",
+        "sha256": "3756af186afb503f0886c9e11d36bdc009d8477519c932276136f066586465fb",
+        "sha256_in_prefix": "3756af186afb503f0886c9e11d36bdc009d8477519c932276136f066586465fb",
+        "size_in_bytes": 858988
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_s_mu_mocks.a",
+        "path_type": "hardlink",
+        "sha256": "dde82e13f4ad204169bac205e00fc26a9439b7f7a56054cf42dbd02ddda0f317",
+        "sha256_in_prefix": "dde82e13f4ad204169bac205e00fc26a9439b7f7a56054cf42dbd02ddda0f317",
+        "size_in_bytes": 1498592
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_theta_mocks.a",
+        "path_type": "hardlink",
+        "sha256": "67a368ce7b6455833b1a0ee8d033e3832257a3263ca2c710e36872664107b340",
+        "sha256_in_prefix": "67a368ce7b6455833b1a0ee8d033e3832257a3263ca2c710e36872664107b340",
+        "size_in_bytes": 1583876
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_wp.a",
+        "path_type": "hardlink",
+        "sha256": "086b319fe31c6016115d87c97e29a401db1ace353ae8295acaf0fc0dbdda68d1",
+        "sha256_in_prefix": "086b319fe31c6016115d87c97e29a401db1ace353ae8295acaf0fc0dbdda68d1",
+        "size_in_bytes": 874394
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountpairs_xi.a",
+        "path_type": "hardlink",
+        "sha256": "7761d22d8860e04ec91f85cfe0bbe5b7b253eabcad5f17c9f12aabf7307452b7",
+        "sha256_in_prefix": "7761d22d8860e04ec91f85cfe0bbe5b7b253eabcad5f17c9f12aabf7307452b7",
+        "size_in_bytes": 852610
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountspheres.a",
+        "path_type": "hardlink",
+        "sha256": "3be303dcb350ee8d857a647bf3f0b915b38949c7eeda14da2d5021ce1955954d",
+        "sha256_in_prefix": "3be303dcb350ee8d857a647bf3f0b915b38949c7eeda14da2d5021ce1955954d",
+        "size_in_bytes": 757040
+      },
+      {
+        "_path": "lib/python3.7/site-packages/lib/libcountspheres_mocks.a",
+        "path_type": "hardlink",
+        "sha256": "2ace1f2b1b59f7e1c61d95f893c6d9c231d18d95980d0b5376b3c3f91284dd64",
+        "sha256_in_prefix": "2ace1f2b1b59f7e1c61d95f893c6d9c231d18d95980d0b5376b3c3f91284dd64",
+        "size_in_bytes": 849972
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock.DD",
+        "path_type": "hardlink",
+        "sha256": "0bdaece233183c521cbe420a5193e6a5287c198c806980c4ae13d2abc3ee2132",
+        "sha256_in_prefix": "0bdaece233183c521cbe420a5193e6a5287c198c806980c4ae13d2abc3ee2132",
+        "size_in_bytes": 54320
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock.DR",
+        "path_type": "hardlink",
+        "sha256": "c56adda9403aed1deb88a4808ed0b3c01364cd0901d22ea31a98c70051422ab2",
+        "sha256_in_prefix": "c56adda9403aed1deb88a4808ed0b3c01364cd0901d22ea31a98c70051422ab2",
+        "size_in_bytes": 54320
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock_DDsmu.DR",
+        "path_type": "hardlink",
+        "sha256": "bf0c34a37cdfc7bb036afb13ba6cb72e40137e18188d6a5f5ce16fb22f0dc652",
+        "sha256_in_prefix": "bf0c34a37cdfc7bb036afb13ba6cb72e40137e18188d6a5f5ce16fb22f0dc652",
+        "size_in_bytes": 13580
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock_DDsmu.RR",
+        "path_type": "hardlink",
+        "sha256": "5149b09fcfe9057b4b353f8b93dfd3e421620564305106005c89a18a99c7babd",
+        "sha256_in_prefix": "5149b09fcfe9057b4b353f8b93dfd3e421620564305106005c89a18a99c7babd",
+        "size_in_bytes": 13580
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock_vpf",
+        "path_type": "hardlink",
+        "sha256": "a0969416c0eb9439db5d8ec6192dc86b8f3f30f768a2c784091387124c93c9e3",
+        "sha256_in_prefix": "a0969416c0eb9439db5d8ec6192dc86b8f3f30f768a2c784091387124c93c9e3",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock_wtheta.DD",
+        "path_type": "hardlink",
+        "sha256": "8f9a9eb74dafda05f45c0101957851f51746c9e8c13b16c8292d208239ce7760",
+        "sha256_in_prefix": "8f9a9eb74dafda05f45c0101957851f51746c9e8c13b16c8292d208239ce7760",
+        "size_in_bytes": 1900
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_mock_wtheta.DR",
+        "path_type": "hardlink",
+        "sha256": "79d8371fde66dc03780f5649c2038dca19a5053308726e65a38f9fccc93c65f5",
+        "sha256_in_prefix": "79d8371fde66dc03780f5649c2038dca19a5053308726e65a38f9fccc93c65f5",
+        "size_in_bytes": 1900
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/Mr19_randoms_vpf",
+        "path_type": "hardlink",
+        "sha256": "5ec6b921b5db2a80b719b0d240c3218953c0d29ed412b760fc6c79429e7a294c",
+        "sha256_in_prefix": "5ec6b921b5db2a80b719b0d240c3218953c0d29ed412b760fc6c79429e7a294c",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/angular_bins",
+        "path_type": "hardlink",
+        "sha256": "3f3b28a22b73388cb15ad1b56596df5f9b1dcb6abfca595b436be1b8f8f13107",
+        "sha256_in_prefix": "3f3b28a22b73388cb15ad1b56596df5f9b1dcb6abfca595b436be1b8f8f13107",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/bins",
+        "path_type": "hardlink",
+        "sha256": "de1d0273089ff0633cdf55d54069970e9c18488bfdb47f7df95cbedfd3ed78a1",
+        "sha256_in_prefix": "de1d0273089ff0633cdf55d54069970e9c18488bfdb47f7df95cbedfd3ed78a1",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/data/Mr19_centers_xyz_forVPF_rmax_10Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "b458a4c9245510ba050aaec69f5f63947edfa42da123436562adcb0bc98903ff",
+        "sha256_in_prefix": "b458a4c9245510ba050aaec69f5f63947edfa42da123436562adcb0bc98903ff",
+        "size_in_bytes": 483727
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/data/Mr19_mock_northonly.rdcz.dat",
+        "path_type": "hardlink",
+        "sha256": "b79aa12ce6bfcc44bc2635f8b11d5932613e135e4e053c944bd24ad598f2b011",
+        "sha256_in_prefix": "b79aa12ce6bfcc44bc2635f8b11d5932613e135e4e053c944bd24ad598f2b011",
+        "size_in_bytes": 6497491
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/data/Mr19_mock_northonly.rdcz.ff",
+        "path_type": "hardlink",
+        "sha256": "f893906431a4c12860cea2c019dc37d8058b5f667eb63f1945bf8eb12806a2dd",
+        "sha256_in_prefix": "f893906431a4c12860cea2c019dc37d8058b5f667eb63f1945bf8eb12806a2dd",
+        "size_in_bytes": 2700372
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mocks/tests/data/Mr19_randoms_northonly.rdcz.ff",
+        "path_type": "hardlink",
+        "sha256": "aee8ef2ffd5cbadfdb0829e2b4bfa72f0aec4cab7ec5121315c1bc094535e330",
+        "sha256_in_prefix": "aee8ef2ffd5cbadfdb0829e2b4bfa72f0aec4cab7ec5121315c1bc094535e330",
+        "size_in_bytes": 29099124
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DD_nonperiodic",
+        "path_type": "hardlink",
+        "sha256": "5348496f18f16d69e305d5506a40a4b71a05b46eb49c8be534edd03f8a04a6c0",
+        "sha256_in_prefix": "5348496f18f16d69e305d5506a40a4b71a05b46eb49c8be534edd03f8a04a6c0",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DD_periodic",
+        "path_type": "hardlink",
+        "sha256": "79a4593000ac750711db3bee972d4025673122724fc328c2ad744ebce3d86e46",
+        "sha256_in_prefix": "79a4593000ac750711db3bee972d4025673122724fc328c2ad744ebce3d86e46",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DDrppi_nonperiodic",
+        "path_type": "hardlink",
+        "sha256": "37e221c9bf8f884b1d6ff7f6809cdda340b9f9337c86e6549b341ff28d00ea38",
+        "sha256_in_prefix": "37e221c9bf8f884b1d6ff7f6809cdda340b9f9337c86e6549b341ff28d00ea38",
+        "size_in_bytes": 53760
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DDrppi_periodic",
+        "path_type": "hardlink",
+        "sha256": "1b4d8a6dbb0f198b0ac2be700cdd1e6173bef51504f60c488ac31f5dbffb3548",
+        "sha256_in_prefix": "1b4d8a6dbb0f198b0ac2be700cdd1e6173bef51504f60c488ac31f5dbffb3548",
+        "size_in_bytes": 53200
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DDsmu_nonperiodic",
+        "path_type": "hardlink",
+        "sha256": "c0f23d50ac6b2caf9ebae482cf6e6f5b78a66cd912dfd2938bf4c1142800ae98",
+        "sha256_in_prefix": "c0f23d50ac6b2caf9ebae482cf6e6f5b78a66cd912dfd2938bf4c1142800ae98",
+        "size_in_bytes": 13440
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_DDsmu_periodic",
+        "path_type": "hardlink",
+        "sha256": "6a14a9804af488d88d1e0634500f4bdfdb87847237b52521af1886275868e4d6",
+        "sha256_in_prefix": "6a14a9804af488d88d1e0634500f4bdfdb87847237b52521af1886275868e4d6",
+        "size_in_bytes": 13300
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_vpf_periodic",
+        "path_type": "hardlink",
+        "sha256": "e259bf380f698ba99ab3f939f9384f023f54f91787731b23d09e4574ff3a88fe",
+        "sha256_in_prefix": "e259bf380f698ba99ab3f939f9384f023f54f91787731b23d09e4574ff3a88fe",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_wp",
+        "path_type": "hardlink",
+        "sha256": "165597d54fb5fb04d8a9e6a9725846c96872dc89da703a0ebf99fde1e26d59ae",
+        "sha256_in_prefix": "165597d54fb5fb04d8a9e6a9725846c96872dc89da703a0ebf99fde1e26d59ae",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/Mr19_xi",
+        "path_type": "hardlink",
+        "sha256": "1fbbd6522daa807ab92ddbcb6f6949c6966984a631a5fee5359220b8f21ea018",
+        "sha256_in_prefix": "1fbbd6522daa807ab92ddbcb6f6949c6966984a631a5fee5359220b8f21ea018",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/bins",
+        "path_type": "hardlink",
+        "sha256": "4ec06bc795a4fbf102febfa87ca24d75b067428898de7c14381ddb8d0510eb7a",
+        "sha256_in_prefix": "4ec06bc795a4fbf102febfa87ca24d75b067428898de7c14381ddb8d0510eb7a",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/cmass_DD_periodic",
+        "path_type": "hardlink",
+        "sha256": "52693e786c1c18831d90960708b6bb6492dfcc2a0710b4f34f6615fb5e3f2e96",
+        "sha256_in_prefix": "52693e786c1c18831d90960708b6bb6492dfcc2a0710b4f34f6615fb5e3f2e96",
+        "size_in_bytes": 106400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/cmass_DR_nonperiodic",
+        "path_type": "hardlink",
+        "sha256": "eda4e703163c01ea2a4603f121f4fd8e25b8a689b05e41256821d68ab5df3614",
+        "sha256_in_prefix": "eda4e703163c01ea2a4603f121f4fd8e25b8a689b05e41256821d68ab5df3614",
+        "size_in_bytes": 107520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/cmass_DR_periodic",
+        "path_type": "hardlink",
+        "sha256": "0ef72c0fb3e46e0cec2b99a2a2440a04e06ae5e231072ddad27340b3d06c807f",
+        "sha256_in_prefix": "0ef72c0fb3e46e0cec2b99a2a2440a04e06ae5e231072ddad27340b3d06c807f",
+        "size_in_bytes": 106400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/cmass_RR_periodic",
+        "path_type": "hardlink",
+        "sha256": "d85b4a79fb37f8738cfbdc0154ec9fd51b48e4b01235722e9ede6f40eb60cf0f",
+        "sha256_in_prefix": "d85b4a79fb37f8738cfbdc0154ec9fd51b48e4b01235722e9ede6f40eb60cf0f",
+        "size_in_bytes": 106400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/data/cmassmock_Zspace.ff",
+        "path_type": "hardlink",
+        "sha256": "f981783b271e87f407d2c02a69eece04bc42701d0e1e17912288edd3143e712d",
+        "sha256_in_prefix": "f981783b271e87f407d2c02a69eece04bc42701d0e1e17912288edd3143e712d",
+        "size_in_bytes": 4580980
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/data/gals_Mr19.ff",
+        "path_type": "hardlink",
+        "sha256": "93bd91c1c5bba496871b8fbbe6004e5b9744e2b8844417b3189ed882cb35aebb",
+        "sha256_in_prefix": "93bd91c1c5bba496871b8fbbe6004e5b9744e2b8844417b3189ed882cb35aebb",
+        "size_in_bytes": 19774580
+      },
+      {
+        "_path": "lib/python3.7/site-packages/theory/tests/data/random_Zspace.ff",
+        "path_type": "hardlink",
+        "sha256": "f6e16a3be65aa6944875a6d3ab5e91484a819b41e2f17c541f474e8010062301",
+        "sha256_in_prefix": "f6e16a3be65aa6944875a6d3ab5e91484a819b41e2f17c541f474e8010062301",
+        "size_in_bytes": 45808756
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "corrfunc",
+  "size": 91455246,
+  "subdir": "linux-64",
+  "timestamp": 1564358108179,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/corrfunc-2.3.0-py37hb3ffb1f_10.tar.bz2",
+  "version": "2.3.0"
+}

@@ -1,0 +1,178 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb3ffb1f_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/bccp/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "mpi4py",
+    "numpy >=1.9,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/global/homes/m/mjwilson/.conda/pkgs/bigfile-0.1.49-py37hb3ffb1f_7",
+  "features": "",
+  "files": [
+    "bin/bigfile-convert",
+    "bin/hdf2bigfile",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/bigfile/__init__.py",
+    "lib/python3.7/site-packages/bigfile/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/bigfile/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/bigfile/pyxbigfile.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/bigfile/tests/__init__.py",
+    "lib/python3.7/site-packages/bigfile/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/bigfile/tests/__pycache__/test_bigfile.cpython-37.pyc",
+    "lib/python3.7/site-packages/bigfile/tests/test_bigfile.py",
+    "lib/python3.7/site-packages/bigfile/version.py"
+  ],
+  "fn": "bigfile-0.1.49-py37hb3ffb1f_7.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/global/homes/m/mjwilson/.conda/pkgs/bigfile-0.1.49-py37hb3ffb1f_7",
+    "type": 1
+  },
+  "md5": "452ec7995f78b2a296bcb237a71fe7e6",
+  "name": "bigfile",
+  "package_tarball_full_path": "/global/homes/m/mjwilson/.conda/pkgs/bigfile-0.1.49-py37hb3ffb1f_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bigfile-convert",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "b063d78307e5c832934df1bae0d2df99504b0770226d43e50651ef160a78e4a1",
+        "sha256_in_prefix": "b4df54883fa86bd68c9bd2ad3d33dc08e5a1f2ad9122cf9ec85a7b653c169c84",
+        "size_in_bytes": 13122
+      },
+      {
+        "_path": "bin/hdf2bigfile",
+        "path_type": "hardlink",
+        "sha256": "52e4d758c5294c521bf46635a383e033a0bf049742cbbbd7e1a7bb08cc35af68",
+        "sha256_in_prefix": "52e4d758c5294c521bf46635a383e033a0bf049742cbbbd7e1a7bb08cc35af68",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "7046fe825c6f60bd50b95e1de94070fcfa57a0e609eaf983ec9cd36923bf8ddb",
+        "sha256_in_prefix": "7046fe825c6f60bd50b95e1de94070fcfa57a0e609eaf983ec9cd36923bf8ddb",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "477026e073927aff81263f833abd6b9fe3f408386c4ca5b767cd15cb8f028e03",
+        "sha256_in_prefix": "477026e073927aff81263f833abd6b9fe3f408386c4ca5b767cd15cb8f028e03",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "649784ccccf03f440409ca7e81093aea1dcb025d0c562ba802487ac71247bb57",
+        "sha256_in_prefix": "649784ccccf03f440409ca7e81093aea1dcb025d0c562ba802487ac71247bb57",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile-0.1.49-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "993328d6ae3506d656f4d7ad3edf917a7d86f61ef9e01a0f177683b5961893b4",
+        "sha256_in_prefix": "993328d6ae3506d656f4d7ad3edf917a7d86f61ef9e01a0f177683b5961893b4",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "448dd137ff2607099d75e8708c1ef26f85656795026bed1b53f76e8ec6359d89",
+        "sha256_in_prefix": "448dd137ff2607099d75e8708c1ef26f85656795026bed1b53f76e8ec6359d89",
+        "size_in_bytes": 10846
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "029e0617aa4d35dcd952a3efa76809d17f3afaaa7457611dfa5b3b10c84abf7a",
+        "sha256_in_prefix": "029e0617aa4d35dcd952a3efa76809d17f3afaaa7457611dfa5b3b10c84abf7a",
+        "size_in_bytes": 11601
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "75173b613aa59668a659641edef4721f2c15793955c476e16ec22a0ce7083a4f",
+        "sha256_in_prefix": "75173b613aa59668a659641edef4721f2c15793955c476e16ec22a0ce7083a4f",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/pyxbigfile.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5536482613d991b80c19e1ab2b1deb75577f3cbab08f496af1ad05ab7c612c63",
+        "sha256_in_prefix": "5536482613d991b80c19e1ab2b1deb75577f3cbab08f496af1ad05ab7c612c63",
+        "size_in_bytes": 431712
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "540f122b3880819f2af26e7e98475fdcda1c4b8248d4a2ee06ede8464f516f45",
+        "sha256_in_prefix": "540f122b3880819f2af26e7e98475fdcda1c4b8248d4a2ee06ede8464f516f45",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/tests/__pycache__/test_bigfile.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "873fc78fc11b32588c511ee533026b4840be61f16d9de8a97808666e78dd92a6",
+        "sha256_in_prefix": "873fc78fc11b32588c511ee533026b4840be61f16d9de8a97808666e78dd92a6",
+        "size_in_bytes": 14067
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/tests/test_bigfile.py",
+        "path_type": "hardlink",
+        "sha256": "d4cdb7cc803af0570670ed00f9e696a83a3fa8f9451e4062b6ec96f1eca6cf93",
+        "sha256_in_prefix": "d4cdb7cc803af0570670ed00f9e696a83a3fa8f9451e4062b6ec96f1eca6cf93",
+        "size_in_bytes": 15605
+      },
+      {
+        "_path": "lib/python3.7/site-packages/bigfile/version.py",
+        "path_type": "hardlink",
+        "sha256": "c54c7539eef5a0ce11e259a5b5742b5143d1a635ea252ec7df150345742bd6b8",
+        "sha256_in_prefix": "c54c7539eef5a0ce11e259a5b5742b5143d1a635ea252ec7df150345742bd6b8",
+        "size_in_bytes": 25
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bigfile",
+  "size": 184988,
+  "subdir": "linux-64",
+  "timestamp": 1584329911570,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bccp/linux-64/bigfile-0.1.49-py37hb3ffb1f_7.tar.bz2",
+  "version": "0.1.49"
+}
