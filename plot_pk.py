@@ -8,41 +8,46 @@ import  matplotlib.pyplot  as plt
 
 fnames  =  []
 
-test    =  True
+test    =  False
 stride  =  1
 lmax    =  4
 regress =  1
 
 alphas  = np.arange(1.0, 0.0, -0.25)
 
-for boxsize, alpha in zip([3000., 1000.], alphas):
-  fname = 'box_pk_regress_{}_box_{:.1f}_lmax_{}_stride_{}_test_{}.txt'.format(regress, boxsize, lmax, stride, np.int(test))
+colors             = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
-  print('Appending {}.'.format(fname))
+if test:
+  for jj, (boxsize, alpha) in enumerate(zip([3000., 1000.], alphas)):
+    fname = 'box_pk_regress_{}_box_{:.1f}_lmax_{}_stride_{}_test_{}.txt'.format(regress, boxsize, lmax, stride, np.int(test))
 
-  dat              = np.loadtxt(fname)                                                                                                                                                                                                        
-  k                = dat[:,0]                                                                                                                                                                                                                
-  N                = dat[:,-1]                                                                                                                                                                                                                
-  poles            = np.arange(0, (lmax + 1), stride)                                                                                                                                                                                       
-  Ps               = dat[:, 1:-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-  assert  len(Ps.T) == len(poles)                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-  for pole, P, amp in zip(poles, Ps.T, 1. + 0.0 * np.arange(len(poles))):                                                                                                                                                                    
-    pl.plot(k, amp * k*np.abs(P), label=r'$k \cdot P_{}$'.format(pole), lw=0.1)
+    print('Appending {}.'.format(fname))
+
+    dat              = np.loadtxt(fname)                                                                                                                                                                                                 
+    k                = dat[:,0]                                                                                                                                                                                                            
+    N                = dat[:,-1]                                                                                                                                                                                                           
+    poles            = np.arange(0, (lmax + 1), stride)                                                                                                                                                                                       
+    Ps               = dat[:, 1:-1]                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    assert  len(Ps.T) == len(poles)                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    for pole, P, amp, color in zip(poles, Ps.T, 1. + jj + 0.0 * np.arange(len(poles)), colors):                                                                                                                                              
+      pl.plot(k, amp * k*np.abs(P), label=r'$k \cdot P_{}$'.format(pole), lw=0.1)
     
-  pl.xlim(   0.0,  0.2)
-  pl.ylim(-100.0, 800.)
+    pl.xlim(   0.0,  0.2)
+    pl.ylim(-100.0, 800.)
 
-  pl.legend(ncol=2, loc=1, frameon=False)
+    pl.legend(ncol=2, loc=1, frameon=False)
 
-  pl.savefig('box_pk.pdf')
+    pl.title(r'$P_s(k, \mu) = ({}) \cdot P_R(k)$'.format(r' + {}'.join(['L_{}'.format(x) for x in poles])))
+    
+    pl.savefig('box_pk.pdf')
 
-exit(0)
-  
+  exit(0)
+    
 # fnames.append('submit/Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_0.txt')
 # fnames.append('Pkl_linear_Krolewski_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_1.txt')
 # fnames.append('Pkl_linear_Wilson_UNIT_DESI_Shadab_HOD_snap97_ELG_v1_4col_1_TEST_0.txt')
 
-alphas             = np.arange(1.0, 0.0, -0.25)
+alphas             = np.arange(1.0, 0.0, -0.4)
 
 boxes              = [3, 1]
 
