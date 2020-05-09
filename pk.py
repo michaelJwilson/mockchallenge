@@ -21,12 +21,12 @@ else:
 # Number of bins is actually the number of *bins*, and not edges, i.e.
 # if you want 40 bins spaced at 5 h^-1 Mpc between 0 and 200, specify Nbins = 40.
 Nmesh            = 1024
-BoxSize          = 3000.
+BoxSize          = 2000.
 binning          = 'linear'
 regress          = True
-test             = True
+test             = False
 
-stride           = 2
+stride           = 1
 
 # Inclusive.
 lmax             = 4
@@ -58,6 +58,7 @@ names            = ['x','y','z','z_red']
 cat              = CSVCatalog(input_path + input_file, names=names)
 
 if test:
+    # Real-space power spectrum input, multiplied by polys in project_to_basis.
     cat['RSDPosition']   = cat['x'][:,None] * [1, 0, 0] + cat['y'][:,None] * [0, 1, 0] + cat['z'][:,None] * [0, 0, 1]
     
 else:

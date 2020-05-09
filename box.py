@@ -30,12 +30,10 @@ cosmo    = cosmology.Cosmology(h=h, Omega_b=Ob0, Omega_cdm=Ocdm0, N_ur = 2.0328,
 # growth = cosmo.background.f1(aa)
 Plin     = cosmology.LinearPower(cosmo, redshift, transfer='EisensteinHu')
 b1       = 2.0
-BoxSize  = 30000. 
+
+BoxSize  = 1000. 
 Nmesh    = 1024
-
-stride   = 2
-
-# Inclusive.
+stride   = 1
 lmax     = 4
 poles    = np.arange(0, (1 + lmax), stride).tolist()
 
